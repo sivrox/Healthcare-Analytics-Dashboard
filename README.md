@@ -36,21 +36,20 @@ Angular filter controls
 ## Repository layout
 
 ```text
-healthcare-dashboard/
-├── frontend/                      # Your full Angular project goes here
+healthcare-dashboard/ # Your full Angular project goes here
 │   ├── src/
 │   │   ├── app/
 │   │   │   ├── app.ts
 │   │   │   ├── app.html
 │   │   │   ├── app.css
 │   │   │   ├── services/healthcare-data.ts
-│   │   │   ├── metric-cards/       # Copy from your existing project
-│   │   │   └── chart-panel/        # Copy from your existing project
-│   │   └── styles.css             # Copy from existing project, including Material styles
-│   ├── package.json               # Copy from existing project
-│   ├── package-lock.json          # Copy from existing project
-│   ├── angular.json               # Copy from existing project
-│   └── proxy.conf.json            # Copy from existing project
+│   │   │   ├── metric-cards/      
+│   │   │   └── chart-panel/        
+│   │   └── styles.css             
+│   ├── package.json             
+│   ├── package-lock.json         
+│   ├── angular.json               
+│   └── proxy.conf.json           
 ├── backend/
 │   ├── main.py
 │   ├── schema.sql

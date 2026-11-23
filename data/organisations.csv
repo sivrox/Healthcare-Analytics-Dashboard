@@ -1,0 +1,11 @@
+organisation_id,organisation_name,organisation_type,region
+ORG001,Meridian General Hospital,Hospital,North
+ORG002,Harborview Medical Center,Hospital,West
+ORG003,Oakfield Family Clinic,Clinic,Central
+ORG004,Cedarbridge Hospital,Hospital,East
+ORG005,Lakeside Health Clinic,Clinic,South
+ORG006,Bluewater Medical Group,Practice,West
+ORG007,Summit Regional Hospital,Hospital,North
+ORG008,Greenway Specialty Center,Practice,Central
+ORG009,ValleyCare Clinic,Clinic,East
+ORG010,Riverside Health Center,Practice,South

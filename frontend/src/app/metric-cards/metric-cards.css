@@ -1,0 +1,26 @@
+
+.metric-card {
+  background: linear-gradient(0deg, #16587B, #0d3449);
+  color: var(--merino);
+  border: 3px solid var(--rockblue);
+  border-radius: 20px;
+  padding: 10px 14px;
+  box-shadow: 4px 6px 14px rgba(22, 88, 123, 0.2);
+}
+
+.metric-card span {
+  font-size: 12px;
+}
+
+.metric-card h3 {
+  font-size: 36px;
+  margin: 18px 0 12px;
+}
+
+:host(.clinical-kpi) {
+  height: 80%;
+}
+
+:host(.clinical-kpi) .metric-card {
+  height: 100%;
+}

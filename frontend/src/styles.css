@@ -1,0 +1,51 @@
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/Satoshi-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --merino: #F5EEDD;
+  --rockblue: #84B3CE;
+  --veniceblue: #16587B;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url('/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--veniceblue);
+  font-family: 'Satoshi', Arial, sans-serif;
+  font-weight: 900;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.healthcare-select-panel.mat-mdc-select-panel {
+  background-color: var(--merino);
+  --mat-option-label-text-font: 'Satoshi';
+  --mat-option-label-text-weight: 900;
+}
+
+.healthcare-select-panel .mat-mdc-option {
+  --mat-option-label-text-color: var(--veniceblue);
+  --mat-option-selected-state-label-text-color: var(--veniceblue);
+  --mat-option-hover-state-layer-color: rgba(132, 179, 206, 0.15);
+  --mat-option-focus-state-layer-color: rgba(132, 179, 206, 0.20);
+  --mat-option-selected-state-layer-color: rgba(132, 179, 206, 0.25);
+}

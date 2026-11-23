@@ -1,0 +1,563 @@
+<div class="dashboard">
+
+  <!-- Global header: remains visible while the user switches between tabs. -->
+  <header class="topbar">
+    <div class="brand">
+      <h1>Healthcare Dashboard</h1>
+    </div>
+  </header>
+
+  <!-- Navigation and the collapsible filters button. -->
+  <nav class="tabs" aria-label="Dashboard views">
+
+    <button
+      [class.active]="activeTab() === 'operations'"
+      (click)="changeTab('operations')">
+      Operations
+    </button>
+
+    <button
+      [class.active]="activeTab() === 'clinical'"
+      (click)="changeTab('clinical')">
+      Clinical Data
+    </button>
+    
+    <button [class.active]="showFilters()"
+      type="button"
+      class="filter-toggle"
+      (click)="toggleFilters()"
+      [attr.aria-expanded]="showFilters()"
+      aria-controls="dashboard-filters">
+
+      <svg
+        width="18"
+        height="18"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round">
+
+        <path d="M4 7h16M4 17h16"/>
+        <circle cx="9" cy="7" r="2" fill="currentColor"/>
+        <circle cx="15" cy="17" r="2" fill="currentColor"/>
+
+      </svg>
+
+      {{ showFilters() ? 'Hide filters' : 'Filters & Controls' }}
+
+    </button>
+
+  </nav>
+
+  <!-- Workspace: either dashboard view and an optional right-hand filter sidebar. -->
+  <div class="workspace" [class.filters-hidden]="!showFilters()">
+
+    <main class="content">
+
+      <!-- Operations KPIs, messages over time, status distribution and recent batches. -->
+      @if (activeTab() === 'operations') {
+        <div class="dashboard-view operations-view">
+          <header class="view-heading">
+            <h2>Operations Overview</h2>
+            <p>Monitor healthcare data exchange activity.</p>
+          </header>
+
+          <div class="operations-dashboard-grid">
+            <div class="metrics-grid">
+              @if (operationsSummary(); as summary) {
+                <app-metric-cards
+                  label="Total Messages"
+                  [value]="summary.totalMessages"
+                />
+
+                <app-metric-cards
+                  label="Processed"
+                  [value]="summary.processed"
+                />
+
+                <app-metric-cards
+                  label="Failed"
+                  [value]="summary.failed"
+                />
+
+                <app-metric-cards
+                  label="Pending"
+                  [value]="summary.pending"
+                />
+              } @else {
+                <p>Loading Operations Summary...</p>
+              }
+            </div>
+
+            <section class="visual-card operations-status-card">
+              <h3>Exchange Status</h3>
+              <p>Distribution of processed, failed and pending records</p>
+              @if (operationsCharts(); as charts) {
+                <app-chart-panel [config]="charts.status" />
+              } @else {
+                <p>Loading exchange status...</p>
+              }
+            </section>
+
+            <section class="visual-card operations-activity-card">
+              <h3>Message Activity</h3>
+              <p>Daily inbound and outbound message trends</p>
+              @if (operationsCharts(); as charts) {
+                <app-chart-panel [config]="charts.activity" />
+              } @else {
+                <p>Loading message activity...</p>
+              }
+            </section>
+
+            <section class="visual-card records-card">
+              <h3>Recent Exchanges</h3>
+              <p>Detailed message records and processing statuses</p>
+              @if (exchangeLoading()) {
+                <p>Loading exchange records...</p>
+              } @else if (exchangeError()) {
+                <p>Unable to load exchange records.</p>
+              } @else {
+                <div class="records-table-wrapper">
+                  <table class="records-table">
+                    <thead>
+                      <tr>
+                        <th>Exchange ID</th>
+                        <th>Date</th>
+                        <th>Organisation</th>
+                        <th>Direction</th>
+                        <th>Status</th>
+                        <th>Messages</th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      @for (record of exchangeRecords(); track record.exchange_id) {
+                        <tr>
+                          <td>{{ record.exchange_id }}</td>
+                          <td>{{ record.date }}</td>
+                          <td>{{ record.organisation_name }}</td>
+                          <td>{{ record.direction }}</td>
+                          <td>
+                            <span
+                              class="status"
+                              [class.status-processed]="record.status === 'Processed'"
+                              [class.status-failed]="record.status === 'Failed'"
+                              [class.status-pending]="record.status === 'Pending'">
+                              {{ record.status }}
+                            </span>
+                          </td>
+                          <td>{{ record.message_count }}</td>
+                        </tr>
+                      } @empty {
+                        <tr>
+                          <td colspan="6">No exchange records found.</td>
+                        </tr>
+                      }
+                    </tbody>
+                  </table>
+                </div>
+              }
+            </section>
+          </div>
+        </div>
+
+      } @else {
+        <!-- Clinical KPIs, demographic visualisations and the encounter heatmap. -->
+        <div class="dashboard-view clinical-view">
+          <header class="view-heading">
+            <h2>Clinical Data Overview</h2>
+            <p>Explore population and healthcare encounter insights.</p>
+          </header>
+
+          <div class="clinical-dashboard-grid">
+            <div class="clinical-metrics">
+              @if (clinicalSummary(); as summary) {
+                <app-metric-cards
+                  class="clinical-kpi"
+                  label="Total Encounters"
+                  [value]="summary.totalEncounters"
+                />
+
+                <app-metric-cards
+                  class="clinical-kpi"
+                  label="Organisations"
+                  [value]="summary.organisations"
+                />
+
+                <app-metric-cards
+                  class="clinical-kpi"
+                  label="Specialties"
+                  [value]="summary.specialties"
+                />
+              } @else {
+                <p>Loading Clinical Summary...</p>
+              }
+            </div>
+
+            <section class="visual-card clinical-age-card">
+              <h3>Patient Age Distribution</h3>
+              <p>Encounters grouped by age band</p>
+              @if (clinicalCharts(); as charts) {
+                <app-chart-panel [config]="charts.ages" />
+              } @else {
+                <p>Loading age distribution...</p>
+              }
+            </section>
+
+            <section class="visual-card clinical-specialties">
+              <h3>Encounters by Specialty</h3>
+              <p>Compare clinical activity across specialties</p>
+              @if (clinicalCharts(); as charts) {
+                <app-chart-panel [config]="charts.specialties" />
+              } @else {
+                <p>Loading specialties...</p>
+              }
+            </section>
+
+            <section class="visual-card clinical-type-distribution">
+              <h3>Encounter Type Distribution</h3>
+              <p>Outpatient, inpatient and other encounter types</p>
+              @if (clinicalCharts(); as charts) {
+                <app-chart-panel [config]="charts.types" />
+              } @else {
+                <p>Loading encounter types...</p>
+              }
+            </section>
+
+            <section class="visual-card clinical-trend">
+              <h3>Encounter Trends</h3>
+              <p>How encounter volume changes over time</p>
+              @if (clinicalCharts(); as charts) {
+                <app-chart-panel [config]="charts.trend" />
+              } @else {
+                <p>Loading encounter trends...</p>
+              }
+            </section>
+
+            <section class="visual-card heatmap-card">
+              <div class="heatmap-header">
+                <div>
+                  <h3>Specialty vs Encounter Type</h3>
+                  <p>Explore how visit types vary by specialty</p>
+                </div>
+                @if (clinicalChartData()) {
+                  <div class="heatmap-legend">
+                    <span>Fewer encounters</span>
+                    <div class="heatmap-gradient" aria-hidden="true"></div>
+                    <span>More encounters</span>
+                    <span class="heatmap-legend-max">Max: {{ heatmapMax() }}</span>
+                  </div>
+                }
+              </div>
+              @if (clinicalChartData()) {
+                <div class="heatmap-wrapper">
+                  <table class="heatmap-table">
+                    <thead>
+                      <tr>
+                        <th>Specialty</th>
+                        @for (type of heatmapTypes(); track type) {
+                          <th>{{ type }}</th>
+                        }
+                      </tr>
+                    </thead>
+                    <tbody>
+                      @for (specialty of heatmapSpecialties(); track specialty) {
+                        <tr>
+                          <th scope="row">{{ specialty }}</th>
+                          @for (type of heatmapTypes(); track type) {
+                            <td
+                              [style.background-color]="heatmapColor(specialty, type)">
+                              {{ heatmapValue(specialty, type) }}
+                            </td>
+                          }
+                        </tr>
+                      }
+                    </tbody>
+                  </table>
+                </div>
+              } @else {
+                <p>Loading heatmap...</p>
+              }
+            </section>
+          </div>
+        </div>
+      }
+
+    </main>
+
+    <!-- Filters are mounted only when the sidebar is open. -->
+    @if (showFilters()) {
+      <aside class="sidebar" id="dashboard-filters">
+        <h2>Filters & Controls</h2>
+        @if (activeTab() === 'operations') {
+
+          <div class="filter-group">
+            <label id="status-label">Message Status</label>
+
+            <mat-select
+              class="material-filter"
+              panelClass="healthcare-select-panel"
+              multiple
+              aria-labelledby="status-label"
+              [value]="messageStatus() ?? ['processed', 'failed', 'pending']"
+              (selectionChange)="changeOperationsSelection('status', $event.value)">
+
+              <mat-select-trigger>
+                @if (messageStatus() === null) {
+                  All statuses
+                } @else if (messageStatus()!.length === 0) {
+                  None selected
+                } @else {
+                  {{ messageStatus()!.length }} selected
+                }
+              </mat-select-trigger>
+
+              <mat-option value="processed">Processed</mat-option>
+              <mat-option value="failed">Failed</mat-option>
+              <mat-option value="pending">Pending</mat-option>
+            </mat-select>
+
+            <div class="selection-actions">
+              <button type="button"
+                (click)="messageStatus.set(null); refreshOperations()">
+                Select all
+              </button>
+
+              <button type="button"
+                (click)="changeOperationsSelection('status', [])">
+                Clear all
+              </button>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <label for="dateRange">Date Range</label>
+
+            <select
+              id="dateRange"
+              #dateSelect
+              [value]="dateRange()"
+              (change)="dateRange.set(dateSelect.value); refreshOperations()">
+
+              <option value="0">All dates</option>
+              <option value="7">Last 7 days</option>
+              <option value="30">Last 30 days</option>
+              <option value="90">Last 90 days</option>
+
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label id="organisation-label">Organisation</label>
+
+            <mat-select
+              class="material-filter"
+              panelClass="healthcare-select-panel"
+              multiple
+              aria-labelledby="organisation-label"
+              [value]="organisation() ?? allOrganisationIds()"
+              (selectionChange)="changeOperationsSelection('organisation', $event.value)">
+
+              <mat-select-trigger>
+                @if (organisation() === null) {
+                  All organisations
+                } @else if (organisation()!.length === 0) {
+                  None selected
+                } @else {
+                  {{ organisation()!.length }} selected
+                }
+              </mat-select-trigger>
+
+              @for (org of organisations(); track org.organisation_id) {
+                <mat-option [value]="org.organisation_id">
+                  {{ org.organisation_name }}
+                </mat-option>
+              }
+            </mat-select>
+
+            <div class="selection-actions">
+              <button type="button"
+                (click)="organisation.set(null); refreshOperations()">
+                Select all
+              </button>
+
+              <button type="button"
+                (click)="changeOperationsSelection('organisation', [])">
+                Clear all
+              </button>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <label for="volume">
+              Minimum Batch Volume: {{ minimumVolume() }}
+            </label>
+
+            <input
+              id="volume"
+              type="range"
+              min="0"
+              max="1000"
+              step="50"
+              #volumeSlider
+              [value]="minimumVolume()"
+              (change)="minimumVolume.set(+volumeSlider.value); refreshOperations()">
+          </div>
+
+        } @else {
+
+          <div class="filter-group">
+            <label for="clinicalPeriod">Reporting Period</label>
+
+            <select
+              id="clinicalPeriod"
+              #periodSelect
+              [value]="clinicalPeriod()"
+              (change)="clinicalPeriod.set(periodSelect.value); refreshClinical()">
+
+              <option value="0">All dates</option>
+              <option value="7">Last 7 days</option>
+              <option value="30">Last 30 days</option>
+              <option value="90">Last 90 days</option>
+
+            </select>
+          </div>
+
+          <div class="filter-group">
+
+            <label id="specialty-label">Specialty</label>
+
+            <mat-select
+              class="material-filter"
+              panelClass="healthcare-select-panel"
+              multiple
+              aria-labelledby="specialty-label"
+              [value]="clinicalSpecialties() ?? clinicalOptions().specialties"
+              (selectionChange)="changeClinicalSelection('specialty', $event.value)">
+
+              <mat-select-trigger>
+                @if (clinicalSpecialties() === null) {
+                  All specialties
+                } @else if (clinicalSpecialties()!.length === 0) {
+                  None selected
+                } @else {
+                  {{ clinicalSpecialties()!.length }} selected
+                }
+              </mat-select-trigger>
+
+              @for (specialty of clinicalOptions().specialties; track specialty) {
+                <mat-option [value]="specialty">
+                  {{ specialty }}
+                </mat-option>
+              }
+
+            </mat-select>
+
+            <div class="selection-actions">
+              <button type="button" (click)="clinicalSpecialties.set(null); refreshClinical()">
+                Select all
+              </button>
+
+              <button type="button" (click)="changeClinicalSelection('specialty', [])">
+                Clear all
+              </button>
+            </div>
+
+          </div>
+
+
+          <div class="filter-group">
+            <label id="encounter-label">Encounter Type</label>
+
+            <mat-select
+              class="material-filter"
+              panelClass="healthcare-select-panel"
+              multiple
+              aria-labelledby="encounter-label"
+              [value]="clinicalEncounterType() ?? clinicalOptions().types"
+              (selectionChange)="changeClinicalSelection('encounter_type', $event.value)">
+
+              <mat-select-trigger>
+                @if (clinicalEncounterType() === null) {
+                  All encounter types
+                } @else if (clinicalEncounterType()!.length === 0) {
+                  None selected
+                } @else {
+                  {{ clinicalEncounterType()!.length }} selected
+                }
+              </mat-select-trigger>
+
+              @for (type of clinicalOptions().types; track type) {
+                <mat-option [value]="type">
+                  {{ type }}
+                </mat-option>
+              }
+            </mat-select>
+
+            <div class="selection-actions">
+              <button type="button"
+                (click)="clinicalEncounterType.set(null); refreshClinical()">
+                Select all
+              </button>
+
+              <button type="button"
+                (click)="changeClinicalSelection('encounter_type', [])">
+                Clear all
+              </button>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <label id="age-label">Age Band</label>
+
+            <mat-select
+              class="material-filter"
+              panelClass="healthcare-select-panel"
+              multiple
+              aria-labelledby="age-label"
+              [value]="clinicalAgeBand() ?? clinicalOptions().ages"
+              (selectionChange)="changeClinicalSelection('age_band', $event.value)">
+
+              <mat-select-trigger>
+                @if (clinicalAgeBand() === null) {
+                  All age bands
+                } @else if (clinicalAgeBand()!.length === 0) {
+                  None selected
+                } @else {
+                  {{ clinicalAgeBand()!.length }} selected
+                }
+              </mat-select-trigger>
+
+              @for (age of clinicalOptions().ages; track age) {
+                <mat-option [value]="age">
+                  {{ age }}
+                </mat-option>
+              }
+            </mat-select>
+
+            <div class="selection-actions">
+              <button type="button"
+                (click)="clinicalAgeBand.set(null); refreshClinical()">
+                Select all
+              </button>
+
+              <button type="button"
+                (click)="changeClinicalSelection('age_band', [])">
+                Clear all
+              </button>
+            </div>
+          </div>
+
+        }
+
+        <button class="reset-btn" (click)="resetFilters()">
+          Reset Filters
+        </button>
+
+      </aside>
+    }
+
+  </div>
+
+</div>

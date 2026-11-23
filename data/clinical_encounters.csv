@@ -1,0 +1,361 @@
+encounter_id,date,organisation_id,organisation_name,age_band,specialty,encounter_type,clinical_category,outcome,length_of_stay_days
+ENC-00060,2026-11-17,ORG009,ValleyCare Clinic,0-17,Neurology,Emergency,General,Follow-up,0
+ENC-00031,2026-11-17,ORG007,Summit Regional Hospital,50-64,Neurology,Emergency,General,Completed,0
+ENC-00024,2026-11-17,ORG001,Meridian General Hospital,0-17,Cardiology,Outpatient,Cardiovascular,Completed,0
+ENC-00005,2026-11-17,ORG007,Summit Regional Hospital,50-64,Orthopedics,Emergency,Musculoskeletal,Referred,0
+ENC-00256,2026-11-16,ORG008,Greenway Specialty Center,18-34,Orthopedics,Inpatient,General,Completed,2
+ENC-00189,2026-11-16,ORG003,Oakfield Family Clinic,18-34,Primary Care,Emergency,General,Follow-up,0
+ENC-00120,2026-11-15,ORG008,Greenway Specialty Center,18-34,Internal Medicine,Inpatient,Musculoskeletal,Follow-up,8
+ENC-00106,2026-11-15,ORG002,Harborview Medical Center,18-34,Internal Medicine,Telehealth,General,Referred,0
+ENC-00057,2026-11-15,ORG008,Greenway Specialty Center,50-64,Orthopedics,Emergency,Cardiovascular,Referred,0
+ENC-00044,2026-11-15,ORG003,Oakfield Family Clinic,35-49,Internal Medicine,Outpatient,Respiratory,Referred,0
+ENC-00034,2026-11-15,ORG001,Meridian General Hospital,0-17,Cardiology,Outpatient,Cardiovascular,Referred,0
+ENC-00293,2026-11-14,ORG002,Harborview Medical Center,35-49,Cardiology,Outpatient,Metabolic,Completed,0
+ENC-00267,2026-11-14,ORG008,Greenway Specialty Center,0-17,Orthopedics,Outpatient,Cardiovascular,Follow-up,0
+ENC-00131,2026-11-14,ORG005,Lakeside Health Clinic,65+,Orthopedics,Outpatient,Metabolic,Completed,0
+ENC-00318,2026-11-13,ORG005,Lakeside Health Clinic,18-34,Neurology,Telehealth,Musculoskeletal,Referred,0
+ENC-00254,2026-11-13,ORG007,Summit Regional Hospital,65+,Orthopedics,Inpatient,Metabolic,Follow-up,3
+ENC-00132,2026-11-13,ORG007,Summit Regional Hospital,35-49,Internal Medicine,Telehealth,Musculoskeletal,Completed,0
+ENC-00019,2026-11-13,ORG005,Lakeside Health Clinic,18-34,Neurology,Emergency,Respiratory,Follow-up,0
+ENC-00262,2026-11-12,ORG004,Cedarbridge Hospital,50-64,Cardiology,Outpatient,Respiratory,Referred,0
+ENC-00203,2026-11-12,ORG002,Harborview Medical Center,50-64,Internal Medicine,Telehealth,Metabolic,Referred,0
+ENC-00093,2026-11-12,ORG010,Riverside Health Center,50-64,Primary Care,Inpatient,Respiratory,Completed,6
+ENC-00086,2026-11-12,ORG002,Harborview Medical Center,0-17,Internal Medicine,Telehealth,Cardiovascular,Follow-up,0
+ENC-00225,2026-11-11,ORG005,Lakeside Health Clinic,35-49,Cardiology,Outpatient,Cardiovascular,Follow-up,0
+ENC-00176,2026-11-11,ORG007,Summit Regional Hospital,50-64,Cardiology,Outpatient,Metabolic,Follow-up,0
+ENC-00107,2026-11-11,ORG009,ValleyCare Clinic,18-34,Cardiology,Telehealth,Musculoskeletal,Follow-up,0
+ENC-00078,2026-11-11,ORG005,Lakeside Health Clinic,35-49,Neurology,Inpatient,General,Completed,6
+ENC-00064,2026-11-11,ORG008,Greenway Specialty Center,35-49,Orthopedics,Telehealth,Cardiovascular,Completed,0
+ENC-00007,2026-11-11,ORG003,Oakfield Family Clinic,65+,Primary Care,Telehealth,Musculoskeletal,Follow-up,0
+ENC-00317,2026-11-10,ORG003,Oakfield Family Clinic,35-49,Internal Medicine,Outpatient,Musculoskeletal,Referred,0
+ENC-00089,2026-11-10,ORG007,Summit Regional Hospital,18-34,Cardiology,Emergency,Cardiovascular,Referred,0
+ENC-00049,2026-11-10,ORG007,Summit Regional Hospital,35-49,Orthopedics,Outpatient,Cardiovascular,Referred,0
+ENC-00040,2026-11-10,ORG006,Bluewater Medical Group,0-17,Internal Medicine,Inpatient,Metabolic,Completed,1
+ENC-00022,2026-11-10,ORG002,Harborview Medical Center,50-64,Primary Care,Emergency,General,Referred,0
+ENC-00320,2026-11-09,ORG010,Riverside Health Center,35-49,Neurology,Emergency,Musculoskeletal,Referred,0
+ENC-00207,2026-11-09,ORG002,Harborview Medical Center,65+,Primary Care,Telehealth,Musculoskeletal,Follow-up,0
+ENC-00128,2026-11-09,ORG008,Greenway Specialty Center,0-17,Primary Care,Telehealth,Musculoskeletal,Follow-up,0
+ENC-00108,2026-11-09,ORG010,Riverside Health Center,0-17,Internal Medicine,Telehealth,Respiratory,Referred,0
+ENC-00177,2026-11-08,ORG010,Riverside Health Center,18-34,Neurology,Emergency,Metabolic,Referred,0
+ENC-00097,2026-11-08,ORG004,Cedarbridge Hospital,0-17,Orthopedics,Emergency,Cardiovascular,Referred,0
+ENC-00347,2026-11-07,ORG004,Cedarbridge Hospital,0-17,Internal Medicine,Emergency,Musculoskeletal,Completed,0
+ENC-00325,2026-11-07,ORG005,Lakeside Health Clinic,35-49,Cardiology,Emergency,Cardiovascular,Follow-up,0
+ENC-00247,2026-11-07,ORG003,Oakfield Family Clinic,65+,Cardiology,Outpatient,Cardiovascular,Completed,0
+ENC-00226,2026-11-07,ORG006,Bluewater Medical Group,50-64,Neurology,Emergency,Respiratory,Follow-up,0
+ENC-00190,2026-11-07,ORG001,Meridian General Hospital,65+,Neurology,Inpatient,Metabolic,Follow-up,9
+ENC-00350,2026-11-06,ORG003,Oakfield Family Clinic,50-64,Primary Care,Outpatient,Cardiovascular,Follow-up,0
+ENC-00307,2026-11-06,ORG006,Bluewater Medical Group,65+,Neurology,Emergency,Metabolic,Referred,0
+ENC-00306,2026-11-06,ORG001,Meridian General Hospital,0-17,Cardiology,Inpatient,Musculoskeletal,Completed,6
+ENC-00092,2026-11-06,ORG003,Oakfield Family Clinic,0-17,Cardiology,Inpatient,Respiratory,Completed,9
+ENC-00014,2026-11-06,ORG006,Bluewater Medical Group,35-49,Internal Medicine,Outpatient,Metabolic,Follow-up,0
+ENC-00179,2026-11-05,ORG006,Bluewater Medical Group,35-49,Neurology,Emergency,General,Follow-up,0
+ENC-00251,2026-11-04,ORG009,ValleyCare Clinic,18-34,Orthopedics,Emergency,Metabolic,Follow-up,0
+ENC-00232,2026-11-04,ORG001,Meridian General Hospital,35-49,Primary Care,Telehealth,General,Referred,0
+ENC-00223,2026-11-04,ORG002,Harborview Medical Center,0-17,Internal Medicine,Outpatient,Cardiovascular,Referred,0
+ENC-00311,2026-11-03,ORG001,Meridian General Hospital,50-64,Neurology,Telehealth,Musculoskeletal,Completed,0
+ENC-00231,2026-11-03,ORG008,Greenway Specialty Center,50-64,Internal Medicine,Emergency,Cardiovascular,Completed,0
+ENC-00185,2026-11-03,ORG002,Harborview Medical Center,0-17,Neurology,Outpatient,Respiratory,Referred,0
+ENC-00096,2026-11-03,ORG006,Bluewater Medical Group,35-49,Neurology,Outpatient,Musculoskeletal,Referred,0
+ENC-00023,2026-11-03,ORG005,Lakeside Health Clinic,65+,Internal Medicine,Outpatient,Musculoskeletal,Follow-up,0
+ENC-00357,2026-11-02,ORG008,Greenway Specialty Center,65+,Internal Medicine,Outpatient,Respiratory,Referred,0
+ENC-00017,2026-11-02,ORG009,ValleyCare Clinic,50-64,Orthopedics,Inpatient,Respiratory,Completed,1
+ENC-00302,2026-11-01,ORG008,Greenway Specialty Center,18-34,Neurology,Telehealth,Cardiovascular,Follow-up,0
+ENC-00281,2026-11-01,ORG005,Lakeside Health Clinic,50-64,Orthopedics,Emergency,Cardiovascular,Follow-up,0
+ENC-00277,2026-11-01,ORG003,Oakfield Family Clinic,35-49,Neurology,Outpatient,General,Referred,0
+ENC-00151,2026-11-01,ORG004,Cedarbridge Hospital,35-49,Primary Care,Inpatient,General,Completed,6
+ENC-00129,2026-11-01,ORG003,Oakfield Family Clinic,50-64,Internal Medicine,Emergency,General,Referred,0
+ENC-00119,2026-11-01,ORG010,Riverside Health Center,50-64,Orthopedics,Outpatient,Cardiovascular,Referred,0
+ENC-00018,2026-11-01,ORG010,Riverside Health Center,65+,Orthopedics,Telehealth,Musculoskeletal,Referred,0
+ENC-00246,2026-10-30,ORG003,Oakfield Family Clinic,50-64,Internal Medicine,Telehealth,Respiratory,Referred,0
+ENC-00211,2026-10-30,ORG001,Meridian General Hospital,50-64,Orthopedics,Telehealth,General,Follow-up,0
+ENC-00104,2026-10-30,ORG008,Greenway Specialty Center,50-64,Cardiology,Telehealth,Cardiovascular,Completed,0
+ENC-00072,2026-10-30,ORG003,Oakfield Family Clinic,0-17,Primary Care,Telehealth,Musculoskeletal,Referred,0
+ENC-00054,2026-10-30,ORG010,Riverside Health Center,0-17,Neurology,Outpatient,Cardiovascular,Referred,0
+ENC-00033,2026-10-30,ORG005,Lakeside Health Clinic,50-64,Cardiology,Telehealth,General,Follow-up,0
+ENC-00012,2026-10-30,ORG008,Greenway Specialty Center,65+,Orthopedics,Inpatient,Musculoskeletal,Follow-up,7
+ENC-00261,2026-10-29,ORG001,Meridian General Hospital,50-64,Internal Medicine,Outpatient,General,Completed,0
+ENC-00215,2026-10-29,ORG004,Cedarbridge Hospital,35-49,Primary Care,Inpatient,Respiratory,Completed,9
+ENC-00114,2026-10-29,ORG003,Oakfield Family Clinic,35-49,Orthopedics,Inpatient,Respiratory,Follow-up,9
+ENC-00069,2026-10-29,ORG004,Cedarbridge Hospital,50-64,Internal Medicine,Telehealth,Musculoskeletal,Referred,0
+ENC-00063,2026-10-29,ORG003,Oakfield Family Clinic,18-34,Orthopedics,Outpatient,General,Completed,0
+ENC-00061,2026-10-29,ORG009,ValleyCare Clinic,65+,Primary Care,Inpatient,Musculoskeletal,Follow-up,9
+ENC-00030,2026-10-29,ORG009,ValleyCare Clinic,50-64,Primary Care,Emergency,Cardiovascular,Follow-up,0
+ENC-00354,2026-10-28,ORG004,Cedarbridge Hospital,0-17,Orthopedics,Emergency,Cardiovascular,Referred,0
+ENC-00327,2026-10-28,ORG005,Lakeside Health Clinic,65+,Internal Medicine,Emergency,Cardiovascular,Referred,0
+ENC-00077,2026-10-28,ORG004,Cedarbridge Hospital,35-49,Cardiology,Emergency,Metabolic,Referred,0
+ENC-00355,2026-10-27,ORG005,Lakeside Health Clinic,65+,Orthopedics,Inpatient,Respiratory,Referred,7
+ENC-00213,2026-10-27,ORG003,Oakfield Family Clinic,18-34,Internal Medicine,Emergency,Metabolic,Follow-up,0
+ENC-00202,2026-10-27,ORG006,Bluewater Medical Group,18-34,Cardiology,Telehealth,Cardiovascular,Completed,0
+ENC-00141,2026-10-27,ORG005,Lakeside Health Clinic,35-49,Orthopedics,Telehealth,General,Follow-up,0
+ENC-00140,2026-10-27,ORG002,Harborview Medical Center,0-17,Internal Medicine,Inpatient,Musculoskeletal,Referred,5
+ENC-00021,2026-10-27,ORG004,Cedarbridge Hospital,35-49,Cardiology,Emergency,Cardiovascular,Referred,0
+ENC-00180,2026-10-26,ORG004,Cedarbridge Hospital,0-17,Internal Medicine,Inpatient,General,Follow-up,9
+ENC-00305,2026-10-25,ORG010,Riverside Health Center,0-17,Cardiology,Emergency,General,Completed,0
+ENC-00172,2026-10-25,ORG008,Greenway Specialty Center,65+,Internal Medicine,Emergency,Metabolic,Follow-up,0
+ENC-00200,2026-10-24,ORG008,Greenway Specialty Center,0-17,Internal Medicine,Emergency,Metabolic,Follow-up,0
+ENC-00270,2026-10-23,ORG003,Oakfield Family Clinic,0-17,Orthopedics,Outpatient,Metabolic,Completed,0
+ENC-00238,2026-10-23,ORG002,Harborview Medical Center,0-17,Orthopedics,Outpatient,General,Completed,0
+ENC-00103,2026-10-23,ORG008,Greenway Specialty Center,18-34,Primary Care,Emergency,Musculoskeletal,Completed,0
+ENC-00330,2026-10-22,ORG003,Oakfield Family Clinic,50-64,Internal Medicine,Telehealth,Musculoskeletal,Referred,0
+ENC-00236,2026-10-22,ORG003,Oakfield Family Clinic,65+,Cardiology,Inpatient,Musculoskeletal,Follow-up,8
+ENC-00101,2026-10-22,ORG009,ValleyCare Clinic,50-64,Cardiology,Inpatient,General,Referred,8
+ENC-00099,2026-10-22,ORG010,Riverside Health Center,0-17,Cardiology,Inpatient,Respiratory,Referred,7
+ENC-00053,2026-10-22,ORG005,Lakeside Health Clinic,65+,Neurology,Outpatient,Cardiovascular,Follow-up,0
+ENC-00356,2026-10-21,ORG001,Meridian General Hospital,0-17,Internal Medicine,Emergency,Metabolic,Completed,0
+ENC-00346,2026-10-21,ORG009,ValleyCare Clinic,50-64,Orthopedics,Outpatient,Musculoskeletal,Follow-up,0
+ENC-00191,2026-10-21,ORG004,Cedarbridge Hospital,65+,Neurology,Inpatient,General,Referred,5
+ENC-00051,2026-10-21,ORG009,ValleyCare Clinic,65+,Cardiology,Emergency,Metabolic,Referred,0
+ENC-00329,2026-10-20,ORG005,Lakeside Health Clinic,35-49,Cardiology,Inpatient,General,Completed,8
+ENC-00324,2026-10-20,ORG004,Cedarbridge Hospital,0-17,Orthopedics,Emergency,General,Follow-up,0
+ENC-00201,2026-10-20,ORG002,Harborview Medical Center,50-64,Internal Medicine,Telehealth,Cardiovascular,Follow-up,0
+ENC-00173,2026-10-20,ORG008,Greenway Specialty Center,0-17,Orthopedics,Telehealth,Cardiovascular,Referred,0
+ENC-00342,2026-10-19,ORG002,Harborview Medical Center,65+,Orthopedics,Outpatient,Respiratory,Completed,0
+ENC-00338,2026-10-19,ORG005,Lakeside Health Clinic,65+,Primary Care,Inpatient,Cardiovascular,Follow-up,9
+ENC-00192,2026-10-19,ORG007,Summit Regional Hospital,65+,Orthopedics,Emergency,Metabolic,Referred,0
+ENC-00181,2026-10-19,ORG003,Oakfield Family Clinic,18-34,Cardiology,Inpatient,Respiratory,Referred,1
+ENC-00118,2026-10-19,ORG010,Riverside Health Center,35-49,Primary Care,Inpatient,General,Referred,5
+ENC-00087,2026-10-19,ORG009,ValleyCare Clinic,35-49,Orthopedics,Outpatient,Musculoskeletal,Follow-up,0
+ENC-00218,2026-10-18,ORG006,Bluewater Medical Group,0-17,Internal Medicine,Telehealth,General,Completed,0
+ENC-00188,2026-10-18,ORG005,Lakeside Health Clinic,50-64,Primary Care,Inpatient,Metabolic,Completed,3
+ENC-00163,2026-10-18,ORG004,Cedarbridge Hospital,50-64,Neurology,Inpatient,Respiratory,Completed,8
+ENC-00013,2026-10-18,ORG010,Riverside Health Center,18-34,Neurology,Telehealth,General,Referred,0
+ENC-00001,2026-10-18,ORG003,Oakfield Family Clinic,35-49,Cardiology,Inpatient,Musculoskeletal,Completed,3
+ENC-00335,2026-10-17,ORG009,ValleyCare Clinic,50-64,Orthopedics,Telehealth,General,Follow-up,0
+ENC-00242,2026-10-17,ORG003,Oakfield Family Clinic,18-34,Internal Medicine,Emergency,Metabolic,Completed,0
+ENC-00239,2026-10-17,ORG001,Meridian General Hospital,18-34,Internal Medicine,Inpatient,Cardiovascular,Referred,9
+ENC-00198,2026-10-17,ORG003,Oakfield Family Clinic,35-49,Cardiology,Outpatient,Cardiovascular,Follow-up,0
+ENC-00187,2026-10-17,ORG004,Cedarbridge Hospital,18-34,Internal Medicine,Telehealth,Musculoskeletal,Completed,0
+ENC-00178,2026-10-17,ORG008,Greenway Specialty Center,18-34,Cardiology,Outpatient,Respiratory,Follow-up,0
+ENC-00174,2026-10-17,ORG005,Lakeside Health Clinic,65+,Cardiology,Inpatient,Musculoskeletal,Completed,8
+ENC-00100,2026-10-17,ORG008,Greenway Specialty Center,0-17,Orthopedics,Outpatient,Cardiovascular,Completed,0
+ENC-00205,2026-10-16,ORG003,Oakfield Family Clinic,18-34,Internal Medicine,Emergency,General,Completed,0
+ENC-00138,2026-10-16,ORG010,Riverside Health Center,35-49,Neurology,Inpatient,Musculoskeletal,Completed,9
+ENC-00094,2026-10-16,ORG006,Bluewater Medical Group,18-34,Cardiology,Emergency,General,Referred,0
+ENC-00084,2026-10-16,ORG004,Cedarbridge Hospital,50-64,Neurology,Telehealth,Respiratory,Follow-up,0
+ENC-00039,2026-10-16,ORG010,Riverside Health Center,18-34,Internal Medicine,Emergency,Respiratory,Follow-up,0
+ENC-00165,2026-10-15,ORG009,ValleyCare Clinic,18-34,Primary Care,Emergency,Musculoskeletal,Completed,0
+ENC-00091,2026-10-15,ORG005,Lakeside Health Clinic,35-49,Internal Medicine,Telehealth,General,Referred,0
+ENC-00047,2026-10-15,ORG006,Bluewater Medical Group,50-64,Primary Care,Emergency,General,Referred,0
+ENC-00035,2026-10-15,ORG002,Harborview Medical Center,18-34,Cardiology,Telehealth,Musculoskeletal,Completed,0
+ENC-00331,2026-10-14,ORG007,Summit Regional Hospital,0-17,Cardiology,Emergency,Metabolic,Follow-up,0
+ENC-00134,2026-10-14,ORG002,Harborview Medical Center,50-64,Internal Medicine,Inpatient,Cardiovascular,Completed,9
+ENC-00122,2026-10-14,ORG002,Harborview Medical Center,50-64,Primary Care,Inpatient,Musculoskeletal,Referred,2
+ENC-00252,2026-10-13,ORG007,Summit Regional Hospital,65+,Orthopedics,Telehealth,Cardiovascular,Follow-up,0
+ENC-00222,2026-10-13,ORG007,Summit Regional Hospital,35-49,Orthopedics,Outpatient,Cardiovascular,Completed,0
+ENC-00045,2026-10-13,ORG005,Lakeside Health Clinic,0-17,Primary Care,Emergency,General,Referred,0
+ENC-00260,2026-10-12,ORG008,Greenway Specialty Center,35-49,Primary Care,Emergency,General,Completed,0
+ENC-00248,2026-10-12,ORG005,Lakeside Health Clinic,50-64,Orthopedics,Outpatient,General,Referred,0
+ENC-00008,2026-10-12,ORG005,Lakeside Health Clinic,65+,Orthopedics,Telehealth,Respiratory,Referred,0
+ENC-00336,2026-10-11,ORG001,Meridian General Hospital,35-49,Internal Medicine,Inpatient,General,Referred,6
+ENC-00322,2026-10-11,ORG010,Riverside Health Center,65+,Neurology,Inpatient,Cardiovascular,Follow-up,8
+ENC-00214,2026-10-11,ORG001,Meridian General Hospital,65+,Internal Medicine,Outpatient,General,Completed,0
+ENC-00154,2026-10-11,ORG002,Harborview Medical Center,50-64,Neurology,Outpatient,General,Follow-up,0
+ENC-00145,2026-10-11,ORG002,Harborview Medical Center,65+,Internal Medicine,Telehealth,Metabolic,Follow-up,0
+ENC-00074,2026-10-11,ORG003,Oakfield Family Clinic,35-49,Neurology,Outpatient,Cardiovascular,Completed,0
+ENC-00011,2026-10-11,ORG009,ValleyCare Clinic,50-64,Orthopedics,Inpatient,General,Follow-up,5
+ENC-00111,2026-10-10,ORG005,Lakeside Health Clinic,0-17,Orthopedics,Telehealth,Respiratory,Completed,0
+ENC-00219,2026-10-09,ORG009,ValleyCare Clinic,18-34,Cardiology,Telehealth,Metabolic,Referred,0
+ENC-00209,2026-10-09,ORG007,Summit Regional Hospital,35-49,Cardiology,Emergency,Respiratory,Completed,0
+ENC-00199,2026-10-09,ORG010,Riverside Health Center,35-49,Orthopedics,Emergency,Musculoskeletal,Completed,0
+ENC-00156,2026-10-09,ORG009,ValleyCare Clinic,0-17,Cardiology,Telehealth,Metabolic,Completed,0
+ENC-00319,2026-10-08,ORG005,Lakeside Health Clinic,65+,Orthopedics,Emergency,General,Referred,0
+ENC-00255,2026-10-08,ORG008,Greenway Specialty Center,0-17,Primary Care,Emergency,Respiratory,Referred,0
+ENC-00245,2026-10-08,ORG006,Bluewater Medical Group,0-17,Orthopedics,Telehealth,Respiratory,Completed,0
+ENC-00152,2026-10-08,ORG010,Riverside Health Center,0-17,Primary Care,Outpatient,Metabolic,Referred,0
+ENC-00142,2026-10-08,ORG003,Oakfield Family Clinic,65+,Primary Care,Telehealth,General,Follow-up,0
+ENC-00052,2026-10-08,ORG007,Summit Regional Hospital,35-49,Internal Medicine,Outpatient,Metabolic,Referred,0
+ENC-00048,2026-10-08,ORG002,Harborview Medical Center,0-17,Cardiology,Inpatient,Musculoskeletal,Completed,8
+ENC-00339,2026-10-07,ORG001,Meridian General Hospital,35-49,Orthopedics,Outpatient,General,Referred,0
+ENC-00300,2026-10-07,ORG006,Bluewater Medical Group,65+,Cardiology,Telehealth,Respiratory,Completed,0
+ENC-00292,2026-10-07,ORG005,Lakeside Health Clinic,18-34,Internal Medicine,Telehealth,Musculoskeletal,Follow-up,0
+ENC-00240,2026-10-07,ORG006,Bluewater Medical Group,0-17,Neurology,Emergency,Musculoskeletal,Referred,0
+ENC-00217,2026-10-07,ORG006,Bluewater Medical Group,35-49,Neurology,Telehealth,Musculoskeletal,Follow-up,0
+ENC-00027,2026-10-07,ORG001,Meridian General Hospital,50-64,Orthopedics,Telehealth,Respiratory,Referred,0
+ENC-00288,2026-10-06,ORG006,Bluewater Medical Group,35-49,Neurology,Inpatient,Musculoskeletal,Completed,8
+ENC-00237,2026-10-06,ORG009,ValleyCare Clinic,35-49,Orthopedics,Telehealth,Metabolic,Follow-up,0
+ENC-00183,2026-10-06,ORG006,Bluewater Medical Group,50-64,Neurology,Outpatient,Cardiovascular,Completed,0
+ENC-00155,2026-10-06,ORG003,Oakfield Family Clinic,18-34,Neurology,Inpatient,Respiratory,Completed,7
+ENC-00143,2026-10-06,ORG004,Cedarbridge Hospital,65+,Neurology,Telehealth,Respiratory,Completed,0
+ENC-00360,2026-10-05,ORG003,Oakfield Family Clinic,50-64,Orthopedics,Inpatient,Musculoskeletal,Completed,5
+ENC-00323,2026-10-05,ORG001,Meridian General Hospital,0-17,Orthopedics,Inpatient,Metabolic,Follow-up,9
+ENC-00197,2026-10-05,ORG009,ValleyCare Clinic,35-49,Internal Medicine,Emergency,Respiratory,Referred,0
+ENC-00136,2026-10-05,ORG001,Meridian General Hospital,35-49,Cardiology,Outpatient,General,Completed,0
+ENC-00076,2026-10-05,ORG007,Summit Regional Hospital,18-34,Orthopedics,Inpatient,General,Referred,1
+ENC-00062,2026-10-05,ORG002,Harborview Medical Center,18-34,Primary Care,Telehealth,Respiratory,Referred,0
+ENC-00243,2026-10-04,ORG008,Greenway Specialty Center,65+,Cardiology,Outpatient,Cardiovascular,Referred,0
+ENC-00221,2026-10-04,ORG002,Harborview Medical Center,0-17,Neurology,Telehealth,Musculoskeletal,Completed,0
+ENC-00162,2026-10-04,ORG003,Oakfield Family Clinic,65+,Orthopedics,Telehealth,Respiratory,Completed,0
+ENC-00083,2026-10-04,ORG005,Lakeside Health Clinic,18-34,Orthopedics,Inpatient,Metabolic,Completed,5
+ENC-00264,2026-10-03,ORG008,Greenway Specialty Center,18-34,Internal Medicine,Outpatient,Musculoskeletal,Referred,0
+ENC-00258,2026-10-03,ORG002,Harborview Medical Center,18-34,Internal Medicine,Emergency,Musculoskeletal,Follow-up,0
+ENC-00220,2026-10-03,ORG010,Riverside Health Center,65+,Neurology,Telehealth,General,Follow-up,0
+ENC-00353,2026-10-02,ORG007,Summit Regional Hospital,35-49,Primary Care,Emergency,Respiratory,Referred,0
+ENC-00278,2026-10-02,ORG001,Meridian General Hospital,0-17,Internal Medicine,Inpatient,Musculoskeletal,Referred,7
+ENC-00167,2026-10-02,ORG003,Oakfield Family Clinic,18-34,Orthopedics,Emergency,Cardiovascular,Follow-up,0
+ENC-00133,2026-10-02,ORG003,Oakfield Family Clinic,50-64,Cardiology,Inpatient,Cardiovascular,Referred,1
+ENC-00032,2026-10-02,ORG006,Bluewater Medical Group,35-49,Primary Care,Outpatient,Musculoskeletal,Completed,0
+ENC-00265,2026-10-01,ORG002,Harborview Medical Center,50-64,Cardiology,Telehealth,Musculoskeletal,Referred,0
+ENC-00227,2026-10-01,ORG007,Summit Regional Hospital,18-34,Orthopedics,Emergency,Metabolic,Follow-up,0
+ENC-00102,2026-10-01,ORG002,Harborview Medical Center,50-64,Internal Medicine,Emergency,Respiratory,Follow-up,0
+ENC-00067,2026-10-01,ORG002,Harborview Medical Center,18-34,Orthopedics,Inpatient,Respiratory,Completed,7
+ENC-00341,2026-09-30,ORG003,Oakfield Family Clinic,50-64,Neurology,Inpatient,Metabolic,Completed,2
+ENC-00315,2026-09-30,ORG007,Summit Regional Hospital,65+,Cardiology,Outpatient,Cardiovascular,Referred,0
+ENC-00310,2026-09-30,ORG010,Riverside Health Center,65+,Primary Care,Inpatient,General,Referred,1
+ENC-00273,2026-09-30,ORG005,Lakeside Health Clinic,65+,Internal Medicine,Inpatient,General,Follow-up,7
+ENC-00117,2026-09-30,ORG010,Riverside Health Center,50-64,Orthopedics,Telehealth,Metabolic,Follow-up,0
+ENC-00358,2026-09-29,ORG001,Meridian General Hospital,35-49,Internal Medicine,Emergency,Cardiovascular,Referred,0
+ENC-00235,2026-09-29,ORG004,Cedarbridge Hospital,0-17,Neurology,Outpatient,General,Completed,0
+ENC-00208,2026-09-29,ORG007,Summit Regional Hospital,18-34,Cardiology,Inpatient,Cardiovascular,Follow-up,6
+ENC-00153,2026-09-29,ORG001,Meridian General Hospital,0-17,Neurology,Emergency,Musculoskeletal,Follow-up,0
+ENC-00344,2026-09-28,ORG008,Greenway Specialty Center,35-49,Orthopedics,Telehealth,Cardiovascular,Referred,0
+ENC-00295,2026-09-28,ORG003,Oakfield Family Clinic,50-64,Internal Medicine,Telehealth,Metabolic,Referred,0
+ENC-00259,2026-09-28,ORG001,Meridian General Hospital,65+,Neurology,Inpatient,Respiratory,Completed,6
+ENC-00257,2026-09-28,ORG005,Lakeside Health Clinic,0-17,Cardiology,Inpatient,Respiratory,Completed,8
+ENC-00228,2026-09-28,ORG004,Cedarbridge Hospital,18-34,Cardiology,Outpatient,Musculoskeletal,Completed,0
+ENC-00082,2026-09-28,ORG009,ValleyCare Clinic,35-49,Neurology,Inpatient,Cardiovascular,Follow-up,6
+ENC-00050,2026-09-28,ORG003,Oakfield Family Clinic,18-34,Internal Medicine,Emergency,Metabolic,Referred,0
+ENC-00159,2026-09-27,ORG001,Meridian General Hospital,65+,Neurology,Telehealth,Cardiovascular,Follow-up,0
+ENC-00157,2026-09-27,ORG006,Bluewater Medical Group,18-34,Internal Medicine,Telehealth,Metabolic,Follow-up,0
+ENC-00146,2026-09-27,ORG010,Riverside Health Center,35-49,Cardiology,Emergency,General,Referred,0
+ENC-00127,2026-09-27,ORG002,Harborview Medical Center,65+,Cardiology,Telehealth,Musculoskeletal,Follow-up,0
+ENC-00080,2026-09-27,ORG002,Harborview Medical Center,50-64,Neurology,Outpatient,General,Referred,0
+ENC-00065,2026-09-27,ORG004,Cedarbridge Hospital,0-17,Internal Medicine,Outpatient,Cardiovascular,Completed,0
+ENC-00345,2026-09-26,ORG004,Cedarbridge Hospital,18-34,Cardiology,Emergency,General,Follow-up,0
+ENC-00314,2026-09-26,ORG001,Meridian General Hospital,50-64,Internal Medicine,Telehealth,Respiratory,Follow-up,0
+ENC-00212,2026-09-26,ORG006,Bluewater Medical Group,0-17,Orthopedics,Telehealth,General,Follow-up,0
+ENC-00116,2026-09-26,ORG002,Harborview Medical Center,65+,Neurology,Telehealth,Cardiovascular,Referred,0
+ENC-00304,2026-09-25,ORG005,Lakeside Health Clinic,18-34,Primary Care,Telehealth,Cardiovascular,Follow-up,0
+ENC-00297,2026-09-25,ORG008,Greenway Specialty Center,0-17,Neurology,Telehealth,Musculoskeletal,Referred,0
+ENC-00282,2026-09-25,ORG006,Bluewater Medical Group,18-34,Orthopedics,Inpatient,Musculoskeletal,Completed,3
+ENC-00144,2026-09-25,ORG002,Harborview Medical Center,35-49,Cardiology,Outpatient,Musculoskeletal,Follow-up,0
+ENC-00359,2026-09-24,ORG008,Greenway Specialty Center,18-34,Internal Medicine,Outpatient,Musculoskeletal,Follow-up,0
+ENC-00351,2026-09-24,ORG008,Greenway Specialty Center,35-49,Neurology,Telehealth,Cardiovascular,Completed,0
+ENC-00312,2026-09-24,ORG006,Bluewater Medical Group,35-49,Orthopedics,Inpatient,General,Completed,1
+ENC-00286,2026-09-24,ORG001,Meridian General Hospital,65+,Orthopedics,Telehealth,General,Referred,0
+ENC-00195,2026-09-24,ORG005,Lakeside Health Clinic,35-49,Primary Care,Emergency,General,Completed,0
+ENC-00010,2026-09-24,ORG009,ValleyCare Clinic,0-17,Internal Medicine,Inpatient,Respiratory,Follow-up,5
+ENC-00161,2026-09-23,ORG009,ValleyCare Clinic,65+,Primary Care,Emergency,Cardiovascular,Referred,0
+ENC-00095,2026-09-23,ORG002,Harborview Medical Center,35-49,Orthopedics,Emergency,General,Referred,0
+ENC-00036,2026-09-23,ORG001,Meridian General Hospital,18-34,Orthopedics,Emergency,Respiratory,Completed,0
+ENC-00279,2026-09-22,ORG006,Bluewater Medical Group,35-49,Cardiology,Emergency,Respiratory,Follow-up,0
+ENC-00263,2026-09-22,ORG009,ValleyCare Clinic,0-17,Cardiology,Emergency,Cardiovascular,Completed,0
+ENC-00015,2026-09-22,ORG008,Greenway Specialty Center,18-34,Internal Medicine,Telehealth,Musculoskeletal,Completed,0
+ENC-00009,2026-09-22,ORG008,Greenway Specialty Center,0-17,Orthopedics,Emergency,General,Referred,0
+ENC-00241,2026-09-21,ORG006,Bluewater Medical Group,35-49,Neurology,Emergency,Respiratory,Referred,0
+ENC-00274,2026-09-20,ORG002,Harborview Medical Center,65+,Orthopedics,Telehealth,General,Follow-up,0
+ENC-00175,2026-09-20,ORG003,Oakfield Family Clinic,18-34,Orthopedics,Outpatient,Cardiovascular,Follow-up,0
+ENC-00343,2026-09-19,ORG007,Summit Regional Hospital,35-49,Neurology,Telehealth,Cardiovascular,Follow-up,0
+ENC-00294,2026-09-19,ORG001,Meridian General Hospital,65+,Neurology,Telehealth,Metabolic,Referred,0
+ENC-00233,2026-09-18,ORG010,Riverside Health Center,0-17,Internal Medicine,Emergency,Musculoskeletal,Completed,0
+ENC-00193,2026-09-18,ORG006,Bluewater Medical Group,65+,Internal Medicine,Inpatient,Metabolic,Referred,8
+ENC-00186,2026-09-18,ORG003,Oakfield Family Clinic,35-49,Primary Care,Outpatient,General,Completed,0
+ENC-00055,2026-09-18,ORG006,Bluewater Medical Group,0-17,Primary Care,Telehealth,Respiratory,Referred,0
+ENC-00334,2026-09-17,ORG003,Oakfield Family Clinic,0-17,Cardiology,Telehealth,Respiratory,Referred,0
+ENC-00309,2026-09-17,ORG003,Oakfield Family Clinic,35-49,Orthopedics,Emergency,Cardiovascular,Completed,0
+ENC-00266,2026-09-17,ORG008,Greenway Specialty Center,0-17,Orthopedics,Telehealth,Cardiovascular,Completed,0
+ENC-00250,2026-09-17,ORG001,Meridian General Hospital,50-64,Cardiology,Outpatient,Cardiovascular,Referred,0
+ENC-00224,2026-09-17,ORG006,Bluewater Medical Group,18-34,Neurology,Outpatient,Respiratory,Completed,0
+ENC-00164,2026-09-17,ORG004,Cedarbridge Hospital,0-17,Internal Medicine,Inpatient,Cardiovascular,Follow-up,5
+ENC-00105,2026-09-17,ORG004,Cedarbridge Hospital,35-49,Cardiology,Telehealth,Respiratory,Follow-up,0
+ENC-00073,2026-09-17,ORG008,Greenway Specialty Center,50-64,Cardiology,Outpatient,Musculoskeletal,Referred,0
+ENC-00196,2026-09-16,ORG002,Harborview Medical Center,18-34,Neurology,Emergency,Metabolic,Completed,0
+ENC-00115,2026-09-16,ORG004,Cedarbridge Hospital,18-34,Cardiology,Outpatient,Respiratory,Follow-up,0
+ENC-00042,2026-09-16,ORG007,Summit Regional Hospital,65+,Orthopedics,Inpatient,Respiratory,Completed,3
+ENC-00020,2026-09-16,ORG007,Summit Regional Hospital,18-34,Primary Care,Telehealth,Metabolic,Completed,0
+ENC-00016,2026-09-16,ORG005,Lakeside Health Clinic,50-64,Cardiology,Emergency,Cardiovascular,Follow-up,0
+ENC-00003,2026-09-16,ORG009,ValleyCare Clinic,35-49,Orthopedics,Telehealth,General,Referred,0
+ENC-00313,2026-09-15,ORG010,Riverside Health Center,0-17,Internal Medicine,Inpatient,Metabolic,Follow-up,2
+ENC-00184,2026-09-15,ORG005,Lakeside Health Clinic,35-49,Orthopedics,Outpatient,Respiratory,Referred,0
+ENC-00098,2026-09-15,ORG005,Lakeside Health Clinic,35-49,Internal Medicine,Inpatient,General,Completed,5
+ENC-00043,2026-09-15,ORG003,Oakfield Family Clinic,65+,Cardiology,Outpatient,General,Completed,0
+ENC-00276,2026-09-14,ORG008,Greenway Specialty Center,18-34,Neurology,Telehealth,Cardiovascular,Follow-up,0
+ENC-00230,2026-09-14,ORG004,Cedarbridge Hospital,0-17,Neurology,Outpatient,Cardiovascular,Referred,0
+ENC-00113,2026-09-14,ORG002,Harborview Medical Center,0-17,Cardiology,Emergency,Musculoskeletal,Referred,0
+ENC-00037,2026-09-14,ORG007,Summit Regional Hospital,65+,Internal Medicine,Emergency,Musculoskeletal,Referred,0
+ENC-00285,2026-09-13,ORG010,Riverside Health Center,0-17,Primary Care,Outpatient,General,Completed,0
+ENC-00244,2026-09-13,ORG009,ValleyCare Clinic,0-17,Internal Medicine,Emergency,Musculoskeletal,Completed,0
+ENC-00110,2026-09-13,ORG007,Summit Regional Hospital,35-49,Internal Medicine,Telehealth,Cardiovascular,Completed,0
+ENC-00026,2026-09-13,ORG002,Harborview Medical Center,65+,Neurology,Outpatient,Respiratory,Referred,0
+ENC-00004,2026-09-13,ORG005,Lakeside Health Clinic,65+,Neurology,Emergency,General,Referred,0
+ENC-00321,2026-09-12,ORG005,Lakeside Health Clinic,35-49,Orthopedics,Inpatient,Musculoskeletal,Completed,5
+ENC-00272,2026-09-12,ORG008,Greenway Specialty Center,65+,Neurology,Outpatient,Musculoskeletal,Referred,0
+ENC-00160,2026-09-12,ORG002,Harborview Medical Center,35-49,Internal Medicine,Telehealth,Cardiovascular,Referred,0
+ENC-00130,2026-09-12,ORG004,Cedarbridge Hospital,50-64,Primary Care,Emergency,General,Completed,0
+ENC-00041,2026-09-12,ORG010,Riverside Health Center,65+,Orthopedics,Emergency,Respiratory,Follow-up,0
+ENC-00182,2026-09-11,ORG005,Lakeside Health Clinic,18-34,Orthopedics,Telehealth,General,Follow-up,0
+ENC-00124,2026-09-11,ORG001,Meridian General Hospital,50-64,Cardiology,Outpatient,Cardiovascular,Completed,0
+ENC-00085,2026-09-11,ORG009,ValleyCare Clinic,35-49,Orthopedics,Telehealth,Cardiovascular,Completed,0
+ENC-00002,2026-09-11,ORG006,Bluewater Medical Group,50-64,Neurology,Telehealth,Respiratory,Completed,0
+ENC-00079,2026-09-10,ORG002,Harborview Medical Center,65+,Neurology,Emergency,Respiratory,Completed,0
+ENC-00158,2026-09-09,ORG008,Greenway Specialty Center,65+,Orthopedics,Outpatient,Musculoskeletal,Follow-up,0
+ENC-00090,2026-09-09,ORG001,Meridian General Hospital,65+,Primary Care,Outpatient,General,Completed,0
+ENC-00088,2026-09-09,ORG003,Oakfield Family Clinic,18-34,Orthopedics,Emergency,Metabolic,Follow-up,0
+ENC-00066,2026-09-09,ORG003,Oakfield Family Clinic,50-64,Internal Medicine,Inpatient,Metabolic,Follow-up,7
+ENC-00025,2026-09-09,ORG010,Riverside Health Center,50-64,Primary Care,Outpatient,Cardiovascular,Referred,0
+ENC-00275,2026-09-08,ORG003,Oakfield Family Clinic,0-17,Orthopedics,Outpatient,Metabolic,Referred,0
+ENC-00268,2026-09-08,ORG004,Cedarbridge Hospital,65+,Neurology,Emergency,Metabolic,Completed,0
+ENC-00148,2026-09-08,ORG001,Meridian General Hospital,35-49,Cardiology,Outpatient,Cardiovascular,Follow-up,0
+ENC-00280,2026-09-07,ORG006,Bluewater Medical Group,50-64,Orthopedics,Telehealth,Metabolic,Follow-up,0
+ENC-00125,2026-09-07,ORG001,Meridian General Hospital,50-64,Internal Medicine,Outpatient,Respiratory,Referred,0
+ENC-00332,2026-09-06,ORG005,Lakeside Health Clinic,0-17,Internal Medicine,Inpatient,Cardiovascular,Follow-up,9
+ENC-00299,2026-09-06,ORG002,Harborview Medical Center,65+,Neurology,Inpatient,Respiratory,Completed,1
+ENC-00169,2026-09-06,ORG009,ValleyCare Clinic,50-64,Internal Medicine,Outpatient,Musculoskeletal,Referred,0
+ENC-00059,2026-09-06,ORG004,Cedarbridge Hospital,50-64,Internal Medicine,Inpatient,Musculoskeletal,Referred,9
+ENC-00326,2026-09-05,ORG006,Bluewater Medical Group,50-64,Neurology,Emergency,Respiratory,Completed,0
+ENC-00139,2026-09-05,ORG010,Riverside Health Center,35-49,Neurology,Emergency,General,Follow-up,0
+ENC-00068,2026-09-05,ORG010,Riverside Health Center,65+,Cardiology,Emergency,Respiratory,Referred,0
+ENC-00006,2026-09-05,ORG009,ValleyCare Clinic,35-49,Orthopedics,Emergency,Respiratory,Referred,0
+ENC-00349,2026-09-04,ORG001,Meridian General Hospital,0-17,Internal Medicine,Outpatient,Respiratory,Follow-up,0
+ENC-00289,2026-09-04,ORG004,Cedarbridge Hospital,0-17,Cardiology,Outpatient,Cardiovascular,Completed,0
+ENC-00283,2026-09-04,ORG009,ValleyCare Clinic,0-17,Cardiology,Emergency,Cardiovascular,Referred,0
+ENC-00081,2026-09-04,ORG009,ValleyCare Clinic,65+,Internal Medicine,Inpatient,Musculoskeletal,Follow-up,9
+ENC-00075,2026-09-04,ORG009,ValleyCare Clinic,0-17,Neurology,Inpatient,Metabolic,Completed,8
+ENC-00070,2026-09-04,ORG001,Meridian General Hospital,0-17,Orthopedics,Emergency,Metabolic,Follow-up,0
+ENC-00170,2026-09-03,ORG007,Summit Regional Hospital,50-64,Cardiology,Telehealth,General,Completed,0
+ENC-00058,2026-09-02,ORG005,Lakeside Health Clinic,18-34,Internal Medicine,Outpatient,Cardiovascular,Follow-up,0
+ENC-00333,2026-09-01,ORG009,ValleyCare Clinic,0-17,Internal Medicine,Telehealth,Cardiovascular,Completed,0
+ENC-00126,2026-09-01,ORG002,Harborview Medical Center,50-64,Cardiology,Telehealth,Metabolic,Referred,0
+ENC-00121,2026-09-01,ORG003,Oakfield Family Clinic,0-17,Internal Medicine,Inpatient,Respiratory,Referred,2
+ENC-00112,2026-09-01,ORG010,Riverside Health Center,35-49,Neurology,Outpatient,Respiratory,Referred,0
+ENC-00046,2026-09-01,ORG001,Meridian General Hospital,0-17,Internal Medicine,Inpatient,Respiratory,Completed,6
+ENC-00316,2026-08-31,ORG010,Riverside Health Center,18-34,Neurology,Inpatient,Respiratory,Follow-up,8
+ENC-00303,2026-08-31,ORG003,Oakfield Family Clinic,18-34,Cardiology,Telehealth,Metabolic,Referred,0
+ENC-00216,2026-08-31,ORG003,Oakfield Family Clinic,65+,Primary Care,Outpatient,Musculoskeletal,Referred,0
+ENC-00206,2026-08-31,ORG010,Riverside Health Center,0-17,Cardiology,Telehealth,General,Completed,0
+ENC-00028,2026-08-31,ORG007,Summit Regional Hospital,35-49,Internal Medicine,Outpatient,Metabolic,Follow-up,0
+ENC-00194,2026-08-30,ORG009,ValleyCare Clinic,35-49,Internal Medicine,Inpatient,Respiratory,Completed,5
+ENC-00166,2026-08-30,ORG002,Harborview Medical Center,0-17,Primary Care,Outpatient,Respiratory,Follow-up,0
+ENC-00269,2026-08-29,ORG003,Oakfield Family Clinic,35-49,Neurology,Outpatient,General,Referred,0
+ENC-00210,2026-08-29,ORG010,Riverside Health Center,18-34,Neurology,Telehealth,Respiratory,Referred,0
+ENC-00298,2026-08-28,ORG009,ValleyCare Clinic,65+,Orthopedics,Outpatient,General,Referred,0
+ENC-00287,2026-08-28,ORG008,Greenway Specialty Center,65+,Orthopedics,Emergency,Musculoskeletal,Follow-up,0
+ENC-00149,2026-08-28,ORG009,ValleyCare Clinic,35-49,Primary Care,Emergency,Respiratory,Follow-up,0
+ENC-00291,2026-08-27,ORG007,Summit Regional Hospital,65+,Primary Care,Telehealth,Respiratory,Follow-up,0
+ENC-00271,2026-08-27,ORG007,Summit Regional Hospital,50-64,Orthopedics,Inpatient,Metabolic,Completed,7
+ENC-00171,2026-08-27,ORG010,Riverside Health Center,65+,Cardiology,Outpatient,Cardiovascular,Referred,0
+ENC-00308,2026-08-26,ORG008,Greenway Specialty Center,18-34,Internal Medicine,Inpatient,General,Completed,6
+ENC-00168,2026-08-25,ORG002,Harborview Medical Center,35-49,Orthopedics,Telehealth,General,Completed,0
+ENC-00249,2026-08-24,ORG007,Summit Regional Hospital,50-64,Cardiology,Inpatient,General,Follow-up,4
+ENC-00150,2026-08-24,ORG003,Oakfield Family Clinic,65+,Orthopedics,Telehealth,Respiratory,Completed,0
+ENC-00284,2026-08-23,ORG008,Greenway Specialty Center,18-34,Internal Medicine,Emergency,Cardiovascular,Referred,0
+ENC-00348,2026-08-22,ORG002,Harborview Medical Center,65+,Cardiology,Emergency,Respiratory,Follow-up,0
+ENC-00340,2026-08-22,ORG007,Summit Regional Hospital,65+,Cardiology,Outpatient,Musculoskeletal,Referred,0
+ENC-00337,2026-08-22,ORG010,Riverside Health Center,35-49,Neurology,Telehealth,Cardiovascular,Follow-up,0
+ENC-00328,2026-08-22,ORG005,Lakeside Health Clinic,50-64,Primary Care,Telehealth,Respiratory,Referred,0
+ENC-00253,2026-08-22,ORG004,Cedarbridge Hospital,35-49,Orthopedics,Telehealth,Cardiovascular,Referred,0
+ENC-00204,2026-08-22,ORG002,Harborview Medical Center,0-17,Primary Care,Outpatient,Cardiovascular,Referred,0
+ENC-00137,2026-08-22,ORG005,Lakeside Health Clinic,50-64,Cardiology,Emergency,Cardiovascular,Follow-up,0
+ENC-00123,2026-08-22,ORG007,Summit Regional Hospital,50-64,Cardiology,Inpatient,General,Follow-up,8
+ENC-00109,2026-08-22,ORG009,ValleyCare Clinic,18-34,Internal Medicine,Emergency,Musculoskeletal,Follow-up,0
+ENC-00056,2026-08-22,ORG004,Cedarbridge Hospital,18-34,Orthopedics,Inpatient,Cardiovascular,Referred,7
+ENC-00296,2026-08-21,ORG006,Bluewater Medical Group,50-64,Primary Care,Inpatient,Respiratory,Referred,7
+ENC-00234,2026-08-21,ORG001,Meridian General Hospital,0-17,Neurology,Emergency,Respiratory,Referred,0
+ENC-00135,2026-08-21,ORG003,Oakfield Family Clinic,35-49,Orthopedics,Emergency,Musculoskeletal,Referred,0
+ENC-00301,2026-08-20,ORG004,Cedarbridge Hospital,0-17,Primary Care,Outpatient,Metabolic,Completed,0
+ENC-00147,2026-08-20,ORG001,Meridian General Hospital,18-34,Internal Medicine,Telehealth,Respiratory,Follow-up,0
+ENC-00071,2026-08-20,ORG010,Riverside Health Center,65+,Cardiology,Inpatient,Cardiovascular,Follow-up,8
+ENC-00352,2026-08-19,ORG010,Riverside Health Center,35-49,Internal Medicine,Inpatient,Cardiovascular,Referred,3
+ENC-00290,2026-08-19,ORG006,Bluewater Medical Group,50-64,Internal Medicine,Inpatient,Musculoskeletal,Referred,5
+ENC-00229,2026-08-19,ORG009,ValleyCare Clinic,50-64,Neurology,Emergency,Respiratory,Completed,0
+ENC-00038,2026-08-19,ORG009,ValleyCare Clinic,18-34,Internal Medicine,Telehealth,Respiratory,Follow-up,0
+ENC-00029,2026-08-19,ORG008,Greenway Specialty Center,35-49,Neurology,Outpatient,General,Referred,0

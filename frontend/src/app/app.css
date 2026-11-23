@@ -1,0 +1,865 @@
+/*
+ * Healthcare Dashboard — component styles
+ * ----------------------------------------
+ * This sheet is intentionally scoped to the dashboard shell/template.
+ * The main desktop grid is in the "Compact, single-viewport" section below.
+ * The earlier base rules set shared colours and card styling; later rules refine
+ * sizes for the compact layout and for smaller screens.
+ * Angular Material's overlay panel colours belong in src/styles.css, not here.
+ * Design tokens (--merino, --rockblue, --veniceblue) come from global styles.
+ */
+
+
+.dashboard {
+  min-height: 100vh;
+}
+
+/* Header */
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(0deg, #16587B, #0d3449);
+  color: var(--merino);
+  padding: 18px 32px;
+  margin-bottom: 6px;
+}
+
+.brand h1 {
+  font-size: 28px;
+  margin: 10px;
+}
+
+
+/* Navigation */
+
+.tabs {
+  display: flex;
+  gap: 20px;
+  padding: 24px 32px;
+  margin-bottom: -6px;
+}
+
+.tabs button {
+  align-self: center;
+  width: 20%;
+  border: 4px solid var(--rockblue);
+  border-radius: 30px;
+  padding: 12px 24px;
+  background: var(--merino);
+  color: var(--veniceblue);
+  cursor: pointer;
+  box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.250);
+}
+
+.tabs button:hover {
+  border: 2px solid var(--veniceblue);
+}
+
+.tabs button.active {
+  background: var(--veniceblue);
+  color: var(--merino);
+}
+
+/* Workspace */
+
+.workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  gap: 20px;
+  padding: 14px 32px 32px;
+  align-items: start;
+}
+
+/* Sidebar */
+
+.sidebar {
+  border: 2px solid var(--rockblue);
+  background: linear-gradient(0deg, #16587B, #0d3449);
+  color: var(--merino);
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 3px 5px 20px rgba(0, 0, 1, 0.503);
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin: 0 0 20px;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-bottom: 22px;
+}
+
+.filter-group label {
+  font-size: 12px;
+}
+
+.filter-group select {
+  width: 100%;
+  padding: 12px;
+  font-size: 12px;
+  border: 2px solid var(--rockblue);
+  border-radius: 10px;
+  background: var(--merino);
+  color: var(--veniceblue);
+  cursor: pointer;
+}
+
+.filter-group input[type="range"] {
+  width: 100%;
+  accent-color: var(--rockblue);
+  cursor: pointer;
+}
+
+
+.reset-btn {
+  width: 100%;
+  min-height: 26px;
+  padding: 6px;
+  background: var(--rockblue);
+  color: var(--veniceblue);
+  border: 2px solid var(--veniceblue);
+  border-radius: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background: var(--veniceblue);
+  color: var(--merino);
+  border-color: 1px solid var(--merino);
+}
+
+/* Main content */
+
+.content {
+  min-width: 0;
+}
+
+
+/* KPI cards */
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 15px;
+  margin-bottom: 18px;
+}
+
+
+/* Chart area */
+
+
+.visual-card {
+  background: linear-gradient(0deg, #16587B, #0d3449);
+  padding: 22px;
+  border: 4px solid var(--rockblue);
+  border-radius: 20px;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.500);
+  min-width: 0;
+}
+
+.visual-card h3 {
+  margin: 0 0 6px;
+  color: var(--merino);
+  font-size: 17px;
+}
+
+.visual-card p {
+  margin: 0;
+  font-size: 12px;
+  color: var(--rockblue);
+  font-weight: normal;
+}
+
+
+/* Records area */
+
+
+/* Desktop hover effects */
+.visual-card:hover {
+  box-shadow: 6px 9px 20px rgba(22, 88, 123, 0.16);
+}
+
+
+
+/* Clinical dashboard */
+
+.clinical-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px;
+  margin-bottom: 18px;
+}
+
+.clinical-trend {
+  margin-bottom: 8px;
+}
+
+
+/* Filter toggle button */
+
+.tabs .filter-toggle {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 11px 18px;
+  color: var(--veniceblue);
+  cursor: pointer;
+}
+
+.tabs .filter-toggle:hover {
+  box-shadow: none;
+  border-color: 4px solid var(--rockblue);
+}
+
+.tabs .filter-toggle:focus-visible {
+  outline: 3px solid var(--merino);
+  outline-offset: 3px;
+}
+
+/* Full-width dashboard when filters are hidden */
+
+.workspace.filters-hidden {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+
+/* Make charts fill their cards */
+
+app-chart-panel {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Clinical heatmap */
+
+.heatmap-wrapper {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.heatmap-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 5px;
+  font-size: 12px;
+}
+
+.heatmap-table th {
+  padding: 10px 6px;
+  text-align: left;
+  color: var(--merino);
+}
+
+.heatmap-table td {
+  padding: 12px 6px;
+  text-align: center;
+  color: var(--veniceblue);
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.heatmap-table tbody th {
+  white-space: nowrap;
+}
+
+
+/* Make visual cards distribute their space vertically */
+
+
+/* Operations charts */
+
+
+/* Clinical encounter trend */
+
+.clinical-trend {
+  height: 440px;
+}
+
+/* Clinical lower charts */
+
+
+/* Reusable chart component */
+
+app-chart-panel {
+  display: block;
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.records-table-wrapper {
+  flex: 1;
+  min-height: 0;
+  max-height: 320px;
+  margin-top: 12px;
+  overflow: auto;
+  border-radius: 8px;
+}
+
+.records-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 13px;
+}
+
+.records-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--rockblue);
+}
+
+.records-table th {
+  background: var(--rockblue);
+  color: var(--veniceblue);
+  padding: 14px;
+  text-align: left;
+}
+
+.records-table td {
+  padding: 13px 14px;
+  border-bottom: 1px solid rgba(245, 238, 221, 0.2);
+  color: var(--merino);
+}
+
+.records-table tbody tr:hover {
+  background: rgba(132, 179, 206, 0.12);
+}
+
+.status {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+}
+
+.status-processed {
+  background: #D5EEDB;
+  color: #21653A;
+}
+
+.status-failed {
+  background: #FFD8D8;
+  color: #A02B2B;
+}
+
+.status-pending {
+  background: #FFF0C2;
+  color: #805600;
+}
+.heatmap-legend {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  color: var(--merino);
+  font-size: 11px;
+}
+
+.heatmap-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.heatmap-header .heatmap-legend {
+  flex-wrap: wrap;
+}
+
+.heatmap-gradient {
+  width: 110px;
+  height: 12px;
+  border-radius: 6px;
+
+  background: linear-gradient(
+    to right,
+    rgba(132, 179, 206, 0.15),
+    rgba(132, 179, 206, 0.90)
+  );
+}
+
+.heatmap-legend-max {
+  color: var(--rockblue);
+}
+
+/* Compact, single-viewport dashboard layouts */
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.topbar {
+  flex: 0 0 auto;
+  padding: 10px 24px;
+}
+
+.brand h1 {
+  font-size: 23px;
+}
+
+.tabs {
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 24px;
+}
+
+.tabs button:not(.filter-toggle) {
+  width: auto;
+  min-width: 240px;
+  padding: 10px 24px;
+  border-width: 3px;
+  font-size: 15px;
+}
+
+.tabs .filter-toggle {
+  width: 12%;
+  padding: 8px 14px;
+  border-width: 1px;
+  background: transparent;
+  box-shadow: none;
+  font-size: 14px;
+  gap: 9px;
+}
+
+.tabs .filter-toggle.active {
+  background: rgba(132, 179, 206, 0.18);
+  color: var(--veniceblue);
+}
+
+.workspace {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+  padding: 12px 24px 16px;
+}
+
+.workspace:not(.filters-hidden) {
+  grid-template-columns: minmax(0, 1fr) 230px;
+}
+
+.content {
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.dashboard-view {
+  display: grid;
+  height: 100%;
+  min-height: 0;
+  gap: 10px;
+}
+
+.view-heading h2 {
+  margin: 0 0 2px;
+  font-size: 21px;
+}
+
+.view-heading p {
+  margin: 0;
+  font-size: 11px;
+}
+
+.operations-view {
+  grid-template-rows: auto minmax(0, 1fr);
+}
+
+.operations-dashboard-grid {
+  display: grid;
+  min-height: 0;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: 100px minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 10px;
+}
+
+.metrics-grid,
+.clinical-metrics {
+  min-height: 0;
+  gap: 10px;
+  margin: 0;
+}
+
+.metrics-grid app-metric-cards,
+.clinical-metrics app-metric-cards {
+  display: block;
+  min-width: 0;
+}
+
+
+.operations-view .visual-card,
+.clinical-view .visual-card {
+  min-height: 0;
+  padding: 12px;
+  border-width: 2px;
+}
+
+.operations-dashboard-grid > .metrics-grid {
+  grid-column: 1 / span 8;
+  grid-row: 1;
+  height: 94px;
+  align-self: center;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.operations-dashboard-grid > .operations-status-card {
+  display: flex;
+  flex-direction: column;
+  grid-column: 9 / span 4;
+  grid-row: 1 / span 2;
+}
+
+.operations-dashboard-grid > .operations-activity-card {
+  display: flex;
+  flex-direction: column;
+  grid-column: 1 / span 8;
+  grid-row: 2;
+}
+
+.operations-view app-chart-panel,
+.clinical-view app-chart-panel {
+  flex: 1;
+  min-height: 0;
+  margin-top: 8px;
+}
+
+.operations-view .records-card {
+  display: flex;
+  flex-direction: column;
+  grid-column: 1 / span 12;
+  grid-row: 3;
+  min-height: 0;
+}
+
+.records-table-wrapper {
+  flex: 1;
+  height: 100%;
+  max-height: none;
+  margin-top: 8px;
+}
+
+.records-table th,
+.records-table td {
+  padding: 8px 10px;
+}
+
+.clinical-view {
+  grid-template-rows: auto minmax(0, 1fr);
+}
+
+.clinical-metrics {
+  grid-column: 1 / span 12;
+  grid-row: 1;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  height: 122px;
+  align-content: stretch;
+  align-self: start;
+}
+
+.clinical-dashboard-grid {
+  --clinical-upward-stretch: 52px;
+  display: grid;
+  min-height: 0;
+  grid-template-columns: repeat(18, minmax(0, 1fr));
+  grid-template-rows: 150px minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 10px;
+}
+
+.clinical-dashboard-grid > .visual-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  height: auto;
+}
+
+.clinical-dashboard-grid > .clinical-age-card {
+  grid-column: 13 / span 6;
+  grid-row: 1 / span 2;
+  margin: 0;
+}
+
+.clinical-dashboard-grid > .clinical-specialties {
+  grid-column: 1 / span 8;
+  grid-row: 2;
+  height: calc(100% + var(--clinical-upward-stretch));
+  margin-top: calc(0px - var(--clinical-upward-stretch));
+}
+
+.clinical-dashboard-grid > .clinical-type-distribution {
+  grid-column: 9 / span 4;
+  grid-row: 2;
+  height: calc(100% + var(--clinical-upward-stretch));
+  margin-top: calc(0px - var(--clinical-upward-stretch));
+}
+
+.clinical-dashboard-grid > .clinical-trend {
+  grid-column: 1 / span 10;
+  grid-row: 3;
+  margin: 0;
+}
+
+.clinical-dashboard-grid > .heatmap-card {
+  grid-column: 11 / span 8;
+  grid-row: 3;
+  padding-bottom: 4px;
+}
+
+.clinical-dashboard-grid .heatmap-wrapper {
+  flex: 1;
+  min-height: 0;
+  margin-top: 8px;
+  overflow: auto;
+}
+
+.clinical-dashboard-grid .heatmap-table {
+  font-size: 10px;
+  border-spacing: 3px;
+}
+
+.clinical-dashboard-grid .heatmap-table th,
+.clinical-dashboard-grid .heatmap-table td {
+  padding: 4px 6px;
+}
+
+.sidebar {
+  min-height: 0;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+.sidebar h2 {
+  margin-bottom: 14px;
+}
+
+.filter-group {
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.filter-group select {
+  padding: 9px;
+}
+
+.reset-btn {
+  padding: 9px;
+}
+
+@media (max-width: 1100px) {
+  .workspace:not(.filters-hidden) {
+    grid-template-columns: minmax(0, 1fr);
+    overflow-y: auto;
+  }
+
+  .workspace:not(.filters-hidden) .sidebar {
+    grid-row: 1;
+  }
+
+  .workspace:not(.filters-hidden) .content {
+    height: auto;
+    min-height: 620px;
+    overflow: visible;
+  }
+}
+
+@media (max-width: 850px), (max-height: 680px) {
+  .workspace,
+  .workspace:not(.filters-hidden) {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .content,
+  .workspace:not(.filters-hidden) .content {
+    height: auto;
+    min-height: 0;
+    overflow: visible;
+  }
+
+  .dashboard-view {
+    height: auto;
+  }
+
+  .operations-view {
+    grid-template-rows: auto auto;
+  }
+
+  .operations-dashboard-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: none;
+    grid-auto-rows: minmax(220px, auto);
+  }
+
+  .operations-dashboard-grid > .metrics-grid,
+  .operations-dashboard-grid > .operations-status-card,
+  .operations-dashboard-grid > .operations-activity-card,
+  .operations-dashboard-grid > .records-card {
+    grid-column: span 2;
+    grid-row: auto;
+  }
+
+  .operations-dashboard-grid > .operations-status-card,
+  .operations-dashboard-grid > .operations-activity-card {
+    height: 280px;
+  }
+
+  .operations-dashboard-grid > .records-card {
+    min-height: 320px;
+  }
+
+  .records-table-wrapper {
+    min-height: 220px;
+  }
+
+  .clinical-view {
+    grid-template-rows: auto auto;
+  }
+
+  .clinical-dashboard-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: none;
+    grid-auto-rows: minmax(220px, auto);
+  }
+
+  .clinical-dashboard-grid > .visual-card {
+    grid-column: auto;
+    grid-row: auto;
+    height: 250px;
+  }
+
+  .clinical-dashboard-grid > .clinical-specialties,
+  .clinical-dashboard-grid > .clinical-type-distribution {
+    height: 250px;
+    margin-top: 0;
+  }
+
+  .clinical-dashboard-grid > .clinical-metrics,
+  .clinical-dashboard-grid > .clinical-age-card {
+    grid-column: span 2;
+    grid-row: auto;
+  }
+}
+
+@media (max-width: 560px) {
+  .topbar,
+  .tabs {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+
+  .tabs {
+    flex-wrap: wrap;
+  }
+
+  .tabs button:not(.filter-toggle) {
+    flex: 1;
+    min-width: 0;
+    padding: 8px 10px;
+    border-width: 2px;
+    font-size: 13px;
+  }
+
+  .tabs .filter-toggle {
+    margin-left: 0;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .workspace,
+  .workspace:not(.filters-hidden) {
+    padding: 10px 14px 14px;
+  }
+
+  .metrics-grid,
+  .clinical-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .operations-dashboard-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .operations-dashboard-grid > .metrics-grid,
+  .operations-dashboard-grid > .operations-status-card,
+  .operations-dashboard-grid > .operations-activity-card,
+  .operations-dashboard-grid > .records-card {
+    grid-column: auto;
+  }
+
+  .clinical-dashboard-grid {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: none;
+    grid-auto-rows: 250px;
+  }
+
+  .clinical-dashboard-grid > .visual-card,
+  .clinical-dashboard-grid > .clinical-metrics {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .clinical-age-card {
+    height: 250px;
+  }
+
+  .heatmap-header {
+    flex-direction: column;
+  }
+}
+
+.material-filter {
+  display: block;
+  width: 100%;
+  min-height: 26px;
+  padding: 8px;
+  border: 2px solid var(--rockblue);
+  border-radius: 10px;
+  background-color: var(--merino);
+  color: var(--veniceblue);
+  cursor: pointer;
+  font-size: 12px;
+  font-family: inherit;
+  letter-spacing: -0.03em;
+}
+
+.selection-actions {
+  display: flex;
+  gap: 4px;
+}
+
+.selection-actions button {
+  flex: 1;
+  min-height: 26px;
+  padding: 6px;
+  border: 2px solid var(--veniceblue);
+  border-radius: 10px;
+  font-size: 12px;
+  background: var(--rockblue);
+  color: var(--veniceblue);
+  cursor: pointer;
+}
+
+.selection-actions button:hover {
+  background: var(--veniceblue);
+  color: var(--merino);
+  border-color: 1px solid var(--merino);
+}

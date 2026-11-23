@@ -1,0 +1,541 @@
+exchange_id,date,organisation_id,organisation_name,direction,message_type,status,message_count,processing_seconds,channel
+EX-00447,2026-11-17,ORG006,Bluewater Medical Group,Inbound,HL7,Processed,479,10.55,ClaimsExchange
+EX-00376,2026-11-17,ORG003,Oakfield Family Clinic,Outbound,Claims,Processed,19,13.76,LabResults
+EX-00340,2026-11-17,ORG007,Summit Regional Hospital,Outbound,Claims,Failed,435,5.09,AdmissionFeed
+EX-00259,2026-11-17,ORG001,Meridian General Hospital,Inbound,FHIR,Processed,394,17.88,EncounterSync
+EX-00103,2026-11-17,ORG004,Cedarbridge Hospital,Inbound,FHIR,Processed,530,8.55,ClaimsExchange
+EX-00057,2026-11-17,ORG009,ValleyCare Clinic,Inbound,Claims,Processed,15,9.06,ClaimsExchange
+EX-00501,2026-11-16,ORG001,Meridian General Hospital,Outbound,HL7,Processed,562,14.42,EncounterSync
+EX-00372,2026-11-16,ORG006,Bluewater Medical Group,Outbound,HL7,Processed,239,10.16,EncounterSync
+EX-00351,2026-11-16,ORG002,Harborview Medical Center,Outbound,FHIR,Pending,472,,AdmissionFeed
+EX-00172,2026-11-16,ORG002,Harborview Medical Center,Outbound,FHIR,Processed,89,15.56,LabResults
+EX-00044,2026-11-16,ORG007,Summit Regional Hospital,Inbound,XML,Processed,41,1.36,ClaimsExchange
+EX-00474,2026-11-15,ORG004,Cedarbridge Hospital,Inbound,FHIR,Processed,286,3.98,LabResults
+EX-00307,2026-11-15,ORG007,Summit Regional Hospital,Outbound,Claims,Processed,489,9.37,AdmissionFeed
+EX-00292,2026-11-15,ORG004,Cedarbridge Hospital,Outbound,Claims,Processed,221,8.76,EncounterSync
+EX-00283,2026-11-15,ORG009,ValleyCare Clinic,Inbound,XML,Processed,503,15.13,LabResults
+EX-00523,2026-11-14,ORG007,Summit Regional Hospital,Inbound,Claims,Processed,280,6.55,AdmissionFeed
+EX-00449,2026-11-14,ORG001,Meridian General Hospital,Inbound,HL7,Failed,90,10.62,EncounterSync
+EX-00356,2026-11-14,ORG001,Meridian General Hospital,Outbound,XML,Processed,22,17.73,ClaimsExchange
+EX-00304,2026-11-14,ORG003,Oakfield Family Clinic,Outbound,Claims,Processed,296,13.73,ClaimsExchange
+EX-00179,2026-11-14,ORG004,Cedarbridge Hospital,Outbound,XML,Processed,306,13.23,EncounterSync
+EX-00076,2026-11-14,ORG007,Summit Regional Hospital,Inbound,Claims,Processed,365,16.74,EncounterSync
+EX-00070,2026-11-14,ORG005,Lakeside Health Clinic,Inbound,Claims,Failed,600,2.59,LabResults
+EX-00004,2026-11-14,ORG007,Summit Regional Hospital,Outbound,FHIR,Processed,515,10.47,AdmissionFeed
+EX-00465,2026-11-13,ORG006,Bluewater Medical Group,Outbound,FHIR,Processed,195,10.57,ClaimsExchange
+EX-00442,2026-11-13,ORG005,Lakeside Health Clinic,Inbound,XML,Processed,192,17.44,AdmissionFeed
+EX-00369,2026-11-13,ORG002,Harborview Medical Center,Outbound,XML,Processed,194,16.31,LabResults
+EX-00280,2026-11-13,ORG007,Summit Regional Hospital,Inbound,HL7,Processed,170,12.75,LabResults
+EX-00069,2026-11-13,ORG008,Greenway Specialty Center,Inbound,FHIR,Processed,496,0.15,LabResults
+EX-00508,2026-11-12,ORG009,ValleyCare Clinic,Inbound,XML,Processed,155,13.14,LabResults
+EX-00483,2026-11-12,ORG010,Riverside Health Center,Inbound,FHIR,Pending,389,,EncounterSync
+EX-00480,2026-11-12,ORG005,Lakeside Health Clinic,Outbound,FHIR,Processed,513,2.24,LabResults
+EX-00450,2026-11-12,ORG005,Lakeside Health Clinic,Outbound,FHIR,Failed,139,3.31,EncounterSync
+EX-00423,2026-11-12,ORG005,Lakeside Health Clinic,Inbound,XML,Processed,391,11.43,ClaimsExchange
+EX-00409,2026-11-12,ORG009,ValleyCare Clinic,Inbound,FHIR,Failed,419,16.63,ClaimsExchange
+EX-00205,2026-11-12,ORG009,ValleyCare Clinic,Inbound,HL7,Processed,92,17.35,AdmissionFeed
+EX-00037,2026-11-12,ORG006,Bluewater Medical Group,Inbound,FHIR,Processed,202,7.38,EncounterSync
+EX-00481,2026-11-11,ORG003,Oakfield Family Clinic,Outbound,HL7,Processed,523,8.64,LabResults
+EX-00439,2026-11-11,ORG009,ValleyCare Clinic,Inbound,Claims,Processed,373,3.13,LabResults
+EX-00330,2026-11-11,ORG005,Lakeside Health Clinic,Outbound,FHIR,Processed,185,14.1,LabResults
+EX-00281,2026-11-11,ORG005,Lakeside Health Clinic,Outbound,XML,Processed,513,9.86,LabResults
+EX-00266,2026-11-11,ORG003,Oakfield Family Clinic,Outbound,XML,Failed,427,10.39,LabResults
+EX-00200,2026-11-11,ORG007,Summit Regional Hospital,Inbound,FHIR,Processed,66,4.89,EncounterSync
+EX-00111,2026-11-11,ORG008,Greenway Specialty Center,Inbound,XML,Processed,303,12.4,EncounterSync
+EX-00456,2026-11-10,ORG004,Cedarbridge Hospital,Outbound,FHIR,Processed,180,13.81,EncounterSync
+EX-00392,2026-11-10,ORG007,Summit Regional Hospital,Inbound,Claims,Processed,427,1.21,ClaimsExchange
+EX-00277,2026-11-10,ORG008,Greenway Specialty Center,Outbound,HL7,Processed,357,5.88,LabResults
+EX-00104,2026-11-10,ORG004,Cedarbridge Hospital,Inbound,Claims,Processed,166,11.33,ClaimsExchange
+EX-00043,2026-11-10,ORG009,ValleyCare Clinic,Inbound,FHIR,Processed,552,16.69,LabResults
+EX-00510,2026-11-09,ORG003,Oakfield Family Clinic,Outbound,Claims,Processed,55,9.67,AdmissionFeed
+EX-00374,2026-11-09,ORG005,Lakeside Health Clinic,Outbound,FHIR,Processed,117,11.39,LabResults
+EX-00125,2026-11-09,ORG006,Bluewater Medical Group,Outbound,XML,Processed,359,3.39,AdmissionFeed
+EX-00034,2026-11-09,ORG003,Oakfield Family Clinic,Outbound,HL7,Processed,162,8.79,AdmissionFeed
+EX-00451,2026-11-08,ORG007,Summit Regional Hospital,Inbound,FHIR,Processed,449,10.11,AdmissionFeed
+EX-00443,2026-11-08,ORG008,Greenway Specialty Center,Inbound,HL7,Processed,463,14.5,LabResults
+EX-00270,2026-11-08,ORG002,Harborview Medical Center,Outbound,HL7,Processed,125,17.94,AdmissionFeed
+EX-00114,2026-11-08,ORG007,Summit Regional Hospital,Outbound,Claims,Processed,153,6.83,AdmissionFeed
+EX-00021,2026-11-08,ORG004,Cedarbridge Hospital,Inbound,XML,Processed,596,10.65,LabResults
+EX-00381,2026-11-07,ORG008,Greenway Specialty Center,Inbound,FHIR,Processed,5,14.91,ClaimsExchange
+EX-00327,2026-11-07,ORG004,Cedarbridge Hospital,Inbound,Claims,Processed,337,7.68,EncounterSync
+EX-00147,2026-11-07,ORG004,Cedarbridge Hospital,Inbound,FHIR,Processed,136,5.11,ClaimsExchange
+EX-00146,2026-11-07,ORG007,Summit Regional Hospital,Inbound,FHIR,Failed,204,12.3,LabResults
+EX-00106,2026-11-07,ORG008,Greenway Specialty Center,Inbound,Claims,Processed,281,1.67,AdmissionFeed
+EX-00012,2026-11-07,ORG007,Summit Regional Hospital,Inbound,FHIR,Processed,235,1.41,AdmissionFeed
+EX-00440,2026-11-06,ORG009,ValleyCare Clinic,Outbound,HL7,Processed,600,3.18,AdmissionFeed
+EX-00419,2026-11-06,ORG004,Cedarbridge Hospital,Outbound,HL7,Processed,561,1.16,LabResults
+EX-00254,2026-11-06,ORG003,Oakfield Family Clinic,Outbound,HL7,Processed,502,14.0,EncounterSync
+EX-00097,2026-11-06,ORG008,Greenway Specialty Center,Outbound,FHIR,Processed,279,15.44,AdmissionFeed
+EX-00013,2026-11-06,ORG007,Summit Regional Hospital,Inbound,FHIR,Processed,512,14.4,LabResults
+EX-00009,2026-11-06,ORG001,Meridian General Hospital,Inbound,Claims,Processed,308,14.13,EncounterSync
+EX-00527,2026-11-05,ORG007,Summit Regional Hospital,Inbound,HL7,Processed,51,7.66,LabResults
+EX-00466,2026-11-05,ORG009,ValleyCare Clinic,Outbound,Claims,Processed,63,17.64,LabResults
+EX-00201,2026-11-05,ORG009,ValleyCare Clinic,Inbound,HL7,Processed,177,5.17,LabResults
+EX-00011,2026-11-05,ORG004,Cedarbridge Hospital,Outbound,Claims,Processed,573,4.87,ClaimsExchange
+EX-00529,2026-11-04,ORG003,Oakfield Family Clinic,Inbound,HL7,Processed,355,17.34,ClaimsExchange
+EX-00513,2026-11-04,ORG007,Summit Regional Hospital,Inbound,FHIR,Processed,538,8.72,EncounterSync
+EX-00482,2026-11-04,ORG005,Lakeside Health Clinic,Inbound,Claims,Failed,360,6.52,EncounterSync
+EX-00382,2026-11-04,ORG010,Riverside Health Center,Inbound,HL7,Processed,407,12.84,EncounterSync
+EX-00338,2026-11-04,ORG006,Bluewater Medical Group,Outbound,XML,Processed,517,7.21,ClaimsExchange
+EX-00240,2026-11-04,ORG007,Summit Regional Hospital,Inbound,XML,Processed,143,15.4,ClaimsExchange
+EX-00487,2026-11-03,ORG009,ValleyCare Clinic,Inbound,HL7,Processed,438,0.69,EncounterSync
+EX-00273,2026-11-03,ORG010,Riverside Health Center,Outbound,HL7,Failed,71,9.04,ClaimsExchange
+EX-00183,2026-11-03,ORG010,Riverside Health Center,Outbound,XML,Processed,172,15.26,LabResults
+EX-00113,2026-11-03,ORG005,Lakeside Health Clinic,Inbound,Claims,Processed,474,7.97,ClaimsExchange
+EX-00071,2026-11-03,ORG006,Bluewater Medical Group,Outbound,HL7,Processed,518,15.8,LabResults
+EX-00178,2026-11-02,ORG009,ValleyCare Clinic,Outbound,HL7,Processed,361,0.66,LabResults
+EX-00151,2026-11-02,ORG005,Lakeside Health Clinic,Outbound,HL7,Processed,536,7.67,LabResults
+EX-00065,2026-11-02,ORG002,Harborview Medical Center,Inbound,XML,Processed,268,16.78,ClaimsExchange
+EX-00453,2026-11-01,ORG004,Cedarbridge Hospital,Inbound,XML,Processed,475,4.08,LabResults
+EX-00444,2026-11-01,ORG007,Summit Regional Hospital,Outbound,HL7,Processed,23,15.74,AdmissionFeed
+EX-00383,2026-11-01,ORG009,ValleyCare Clinic,Outbound,XML,Processed,467,6.75,ClaimsExchange
+EX-00309,2026-11-01,ORG008,Greenway Specialty Center,Inbound,XML,Processed,39,11.78,ClaimsExchange
+EX-00290,2026-11-01,ORG003,Oakfield Family Clinic,Outbound,Claims,Failed,227,1.35,AdmissionFeed
+EX-00284,2026-11-01,ORG002,Harborview Medical Center,Inbound,HL7,Processed,418,11.55,LabResults
+EX-00048,2026-11-01,ORG003,Oakfield Family Clinic,Inbound,XML,Processed,229,6.09,EncounterSync
+EX-00031,2026-11-01,ORG002,Harborview Medical Center,Outbound,XML,Processed,454,18.22,ClaimsExchange
+EX-00001,2026-11-01,ORG001,Meridian General Hospital,Outbound,Claims,Processed,69,9.12,AdmissionFeed
+EX-00502,2026-10-31,ORG010,Riverside Health Center,Outbound,XML,Processed,43,9.6,ClaimsExchange
+EX-00485,2026-10-31,ORG005,Lakeside Health Clinic,Inbound,FHIR,Processed,594,2.31,AdmissionFeed
+EX-00430,2026-10-31,ORG001,Meridian General Hospital,Outbound,XML,Processed,44,7.22,ClaimsExchange
+EX-00344,2026-10-31,ORG002,Harborview Medical Center,Outbound,HL7,Processed,128,7.14,ClaimsExchange
+EX-00317,2026-10-31,ORG009,ValleyCare Clinic,Outbound,FHIR,Processed,519,2.21,ClaimsExchange
+EX-00293,2026-10-31,ORG004,Cedarbridge Hospital,Inbound,FHIR,Processed,532,11.08,AdmissionFeed
+EX-00242,2026-10-31,ORG003,Oakfield Family Clinic,Inbound,FHIR,Processed,599,15.31,ClaimsExchange
+EX-00203,2026-10-31,ORG002,Harborview Medical Center,Inbound,Claims,Processed,517,5.92,ClaimsExchange
+EX-00162,2026-10-31,ORG001,Meridian General Hospital,Inbound,FHIR,Processed,270,15.9,AdmissionFeed
+EX-00158,2026-10-31,ORG003,Oakfield Family Clinic,Outbound,HL7,Processed,194,13.58,LabResults
+EX-00120,2026-10-31,ORG008,Greenway Specialty Center,Outbound,Claims,Processed,106,11.42,EncounterSync
+EX-00379,2026-10-30,ORG008,Greenway Specialty Center,Outbound,XML,Processed,121,0.94,EncounterSync
+EX-00238,2026-10-30,ORG005,Lakeside Health Clinic,Outbound,XML,Processed,455,0.87,AdmissionFeed
+EX-00173,2026-10-30,ORG008,Greenway Specialty Center,Inbound,Claims,Processed,45,12.27,LabResults
+EX-00171,2026-10-30,ORG006,Bluewater Medical Group,Outbound,XML,Processed,394,18.46,EncounterSync
+EX-00093,2026-10-30,ORG003,Oakfield Family Clinic,Outbound,HL7,Processed,5,10.08,EncounterSync
+EX-00498,2026-10-29,ORG001,Meridian General Hospital,Outbound,FHIR,Processed,433,16.9,LabResults
+EX-00275,2026-10-29,ORG008,Greenway Specialty Center,Inbound,XML,Processed,207,7.63,LabResults
+EX-00539,2026-10-28,ORG005,Lakeside Health Clinic,Outbound,Claims,Processed,565,4.47,LabResults
+EX-00469,2026-10-28,ORG001,Meridian General Hospital,Inbound,FHIR,Processed,444,8.13,ClaimsExchange
+EX-00346,2026-10-28,ORG007,Summit Regional Hospital,Inbound,FHIR,Processed,206,11.02,EncounterSync
+EX-00329,2026-10-28,ORG003,Oakfield Family Clinic,Inbound,HL7,Processed,487,9.52,ClaimsExchange
+EX-00328,2026-10-28,ORG002,Harborview Medical Center,Outbound,FHIR,Processed,38,6.33,LabResults
+EX-00208,2026-10-28,ORG006,Bluewater Medical Group,Outbound,XML,Processed,39,3.4,LabResults
+EX-00202,2026-10-28,ORG006,Bluewater Medical Group,Outbound,FHIR,Processed,403,10.08,AdmissionFeed
+EX-00124,2026-10-28,ORG004,Cedarbridge Hospital,Outbound,HL7,Processed,553,7.95,ClaimsExchange
+EX-00102,2026-10-28,ORG002,Harborview Medical Center,Inbound,XML,Processed,25,6.68,AdmissionFeed
+EX-00087,2026-10-28,ORG008,Greenway Specialty Center,Inbound,Claims,Processed,468,0.63,LabResults
+EX-00078,2026-10-28,ORG007,Summit Regional Hospital,Inbound,FHIR,Processed,532,13.95,ClaimsExchange
+EX-00403,2026-10-27,ORG007,Summit Regional Hospital,Inbound,FHIR,Pending,190,,LabResults
+EX-00387,2026-10-27,ORG010,Riverside Health Center,Outbound,XML,Processed,442,9.75,EncounterSync
+EX-00377,2026-10-27,ORG009,ValleyCare Clinic,Outbound,Claims,Processed,333,9.68,LabResults
+EX-00212,2026-10-27,ORG001,Meridian General Hospital,Outbound,XML,Processed,566,2.49,AdmissionFeed
+EX-00210,2026-10-27,ORG002,Harborview Medical Center,Outbound,HL7,Processed,65,14.3,LabResults
+EX-00180,2026-10-27,ORG003,Oakfield Family Clinic,Inbound,XML,Failed,232,0.86,EncounterSync
+EX-00175,2026-10-27,ORG007,Summit Regional Hospital,Outbound,HL7,Processed,569,8.87,EncounterSync
+EX-00127,2026-10-27,ORG002,Harborview Medical Center,Inbound,HL7,Processed,537,9.93,AdmissionFeed
+EX-00054,2026-10-27,ORG008,Greenway Specialty Center,Inbound,XML,Processed,438,6.09,EncounterSync
+EX-00029,2026-10-27,ORG002,Harborview Medical Center,Outbound,Claims,Processed,54,4.57,AdmissionFeed
+EX-00006,2026-10-27,ORG005,Lakeside Health Clinic,Outbound,HL7,Processed,480,13.11,ClaimsExchange
+EX-00503,2026-10-26,ORG007,Summit Regional Hospital,Outbound,HL7,Processed,328,5.04,LabResults
+EX-00350,2026-10-26,ORG005,Lakeside Health Clinic,Outbound,HL7,Processed,498,13.35,EncounterSync
+EX-00310,2026-10-26,ORG010,Riverside Health Center,Outbound,HL7,Failed,512,13.46,AdmissionFeed
+EX-00251,2026-10-26,ORG003,Oakfield Family Clinic,Outbound,FHIR,Failed,481,15.15,ClaimsExchange
+EX-00167,2026-10-26,ORG007,Summit Regional Hospital,Outbound,HL7,Processed,199,6.08,EncounterSync
+EX-00166,2026-10-26,ORG005,Lakeside Health Clinic,Inbound,Claims,Processed,430,1.88,ClaimsExchange
+EX-00437,2026-10-25,ORG001,Meridian General Hospital,Inbound,HL7,Processed,136,13.24,EncounterSync
+EX-00363,2026-10-25,ORG008,Greenway Specialty Center,Inbound,Claims,Processed,454,5.51,ClaimsExchange
+EX-00325,2026-10-25,ORG006,Bluewater Medical Group,Inbound,HL7,Processed,331,1.12,LabResults
+EX-00276,2026-10-25,ORG008,Greenway Specialty Center,Outbound,FHIR,Processed,521,12.32,EncounterSync
+EX-00258,2026-10-25,ORG005,Lakeside Health Clinic,Outbound,HL7,Failed,318,12.27,LabResults
+EX-00237,2026-10-25,ORG009,ValleyCare Clinic,Inbound,XML,Processed,73,11.06,ClaimsExchange
+EX-00188,2026-10-25,ORG007,Summit Regional Hospital,Outbound,HL7,Processed,592,4.72,LabResults
+EX-00128,2026-10-25,ORG002,Harborview Medical Center,Outbound,HL7,Processed,172,2.41,AdmissionFeed
+EX-00040,2026-10-25,ORG008,Greenway Specialty Center,Outbound,HL7,Processed,189,1.36,LabResults
+EX-00016,2026-10-25,ORG007,Summit Regional Hospital,Outbound,Claims,Processed,47,2.65,AdmissionFeed
+EX-00532,2026-10-24,ORG007,Summit Regional Hospital,Inbound,Claims,Processed,455,11.27,AdmissionFeed
+EX-00333,2026-10-24,ORG003,Oakfield Family Clinic,Outbound,XML,Processed,229,16.65,LabResults
+EX-00302,2026-10-24,ORG009,ValleyCare Clinic,Outbound,XML,Processed,315,8.4,ClaimsExchange
+EX-00246,2026-10-24,ORG001,Meridian General Hospital,Outbound,Claims,Processed,409,4.48,EncounterSync
+EX-00216,2026-10-24,ORG002,Harborview Medical Center,Inbound,XML,Processed,75,13.65,ClaimsExchange
+EX-00164,2026-10-24,ORG009,ValleyCare Clinic,Outbound,XML,Failed,228,6.96,ClaimsExchange
+EX-00134,2026-10-24,ORG002,Harborview Medical Center,Outbound,HL7,Processed,162,4.35,AdmissionFeed
+EX-00126,2026-10-24,ORG005,Lakeside Health Clinic,Outbound,HL7,Processed,293,7.35,EncounterSync
+EX-00123,2026-10-24,ORG007,Summit Regional Hospital,Inbound,HL7,Processed,243,7.34,ClaimsExchange
+EX-00121,2026-10-24,ORG005,Lakeside Health Clinic,Inbound,FHIR,Processed,291,11.62,LabResults
+EX-00464,2026-10-23,ORG010,Riverside Health Center,Inbound,HL7,Processed,211,16.7,LabResults
+EX-00411,2026-10-23,ORG009,ValleyCare Clinic,Inbound,FHIR,Processed,401,5.7,AdmissionFeed
+EX-00404,2026-10-23,ORG010,Riverside Health Center,Inbound,XML,Processed,15,8.01,ClaimsExchange
+EX-00400,2026-10-23,ORG006,Bluewater Medical Group,Outbound,Claims,Processed,52,0.91,ClaimsExchange
+EX-00332,2026-10-23,ORG010,Riverside Health Center,Outbound,HL7,Processed,311,13.96,EncounterSync
+EX-00261,2026-10-23,ORG003,Oakfield Family Clinic,Outbound,FHIR,Failed,424,0.19,ClaimsExchange
+EX-00169,2026-10-23,ORG003,Oakfield Family Clinic,Inbound,XML,Processed,340,1.1,ClaimsExchange
+EX-00161,2026-10-23,ORG004,Cedarbridge Hospital,Outbound,XML,Processed,597,1.21,AdmissionFeed
+EX-00154,2026-10-23,ORG008,Greenway Specialty Center,Outbound,XML,Processed,211,10.47,AdmissionFeed
+EX-00074,2026-10-23,ORG005,Lakeside Health Clinic,Inbound,Claims,Pending,356,,ClaimsExchange
+EX-00063,2026-10-23,ORG006,Bluewater Medical Group,Outbound,XML,Processed,374,8.15,AdmissionFeed
+EX-00475,2026-10-22,ORG004,Cedarbridge Hospital,Inbound,HL7,Processed,552,17.71,AdmissionFeed
+EX-00467,2026-10-22,ORG001,Meridian General Hospital,Outbound,XML,Pending,282,,ClaimsExchange
+EX-00311,2026-10-22,ORG003,Oakfield Family Clinic,Inbound,FHIR,Processed,419,0.82,LabResults
+EX-00141,2026-10-22,ORG001,Meridian General Hospital,Outbound,XML,Processed,396,14.38,AdmissionFeed
+EX-00079,2026-10-22,ORG006,Bluewater Medical Group,Outbound,FHIR,Failed,227,6.75,AdmissionFeed
+EX-00038,2026-10-22,ORG009,ValleyCare Clinic,Inbound,HL7,Processed,118,4.83,LabResults
+EX-00424,2026-10-21,ORG009,ValleyCare Clinic,Inbound,XML,Processed,152,1.9,AdmissionFeed
+EX-00373,2026-10-21,ORG008,Greenway Specialty Center,Outbound,HL7,Processed,574,3.74,ClaimsExchange
+EX-00262,2026-10-21,ORG003,Oakfield Family Clinic,Inbound,XML,Processed,233,14.53,LabResults
+EX-00080,2026-10-21,ORG009,ValleyCare Clinic,Outbound,XML,Processed,171,0.73,EncounterSync
+EX-00046,2026-10-21,ORG008,Greenway Specialty Center,Outbound,HL7,Processed,296,14.96,AdmissionFeed
+EX-00399,2026-10-20,ORG006,Bluewater Medical Group,Outbound,Claims,Processed,240,5.09,ClaimsExchange
+EX-00348,2026-10-20,ORG010,Riverside Health Center,Outbound,XML,Processed,459,17.84,LabResults
+EX-00305,2026-10-20,ORG004,Cedarbridge Hospital,Inbound,FHIR,Processed,487,2.21,LabResults
+EX-00252,2026-10-20,ORG009,ValleyCare Clinic,Outbound,HL7,Processed,510,15.31,AdmissionFeed
+EX-00181,2026-10-20,ORG010,Riverside Health Center,Outbound,Claims,Processed,167,15.55,ClaimsExchange
+EX-00157,2026-10-20,ORG003,Oakfield Family Clinic,Inbound,Claims,Processed,96,14.79,EncounterSync
+EX-00518,2026-10-19,ORG010,Riverside Health Center,Inbound,Claims,Processed,80,8.11,EncounterSync
+EX-00312,2026-10-19,ORG007,Summit Regional Hospital,Outbound,FHIR,Processed,44,2.61,LabResults
+EX-00458,2026-10-18,ORG003,Oakfield Family Clinic,Outbound,Claims,Processed,383,13.74,EncounterSync
+EX-00236,2026-10-18,ORG009,ValleyCare Clinic,Inbound,FHIR,Processed,209,9.8,AdmissionFeed
+EX-00144,2026-10-18,ORG004,Cedarbridge Hospital,Inbound,HL7,Processed,125,15.51,ClaimsExchange
+EX-00014,2026-10-18,ORG005,Lakeside Health Clinic,Outbound,XML,Failed,35,3.23,AdmissionFeed
+EX-00428,2026-10-17,ORG008,Greenway Specialty Center,Outbound,Claims,Processed,145,6.64,ClaimsExchange
+EX-00406,2026-10-17,ORG009,ValleyCare Clinic,Inbound,HL7,Processed,478,3.99,ClaimsExchange
+EX-00343,2026-10-17,ORG002,Harborview Medical Center,Outbound,HL7,Processed,550,16.56,LabResults
+EX-00324,2026-10-17,ORG007,Summit Regional Hospital,Outbound,XML,Processed,205,14.08,AdmissionFeed
+EX-00206,2026-10-17,ORG002,Harborview Medical Center,Inbound,HL7,Processed,339,12.27,AdmissionFeed
+EX-00107,2026-10-17,ORG002,Harborview Medical Center,Inbound,FHIR,Processed,224,9.7,ClaimsExchange
+EX-00073,2026-10-17,ORG005,Lakeside Health Clinic,Inbound,XML,Processed,523,9.78,ClaimsExchange
+EX-00036,2026-10-17,ORG010,Riverside Health Center,Inbound,HL7,Failed,180,17.53,ClaimsExchange
+EX-00506,2026-10-16,ORG005,Lakeside Health Clinic,Inbound,FHIR,Processed,178,10.54,ClaimsExchange
+EX-00322,2026-10-16,ORG002,Harborview Medical Center,Outbound,Claims,Processed,421,2.72,AdmissionFeed
+EX-00241,2026-10-16,ORG006,Bluewater Medical Group,Inbound,Claims,Failed,121,3.12,EncounterSync
+EX-00185,2026-10-16,ORG005,Lakeside Health Clinic,Outbound,Claims,Failed,434,10.39,AdmissionFeed
+EX-00139,2026-10-16,ORG008,Greenway Specialty Center,Outbound,HL7,Failed,128,15.9,AdmissionFeed
+EX-00008,2026-10-16,ORG005,Lakeside Health Clinic,Inbound,FHIR,Processed,542,5.68,EncounterSync
+EX-00452,2026-10-15,ORG004,Cedarbridge Hospital,Inbound,XML,Processed,259,1.58,ClaimsExchange
+EX-00446,2026-10-15,ORG004,Cedarbridge Hospital,Inbound,XML,Failed,221,16.49,AdmissionFeed
+EX-00427,2026-10-15,ORG007,Summit Regional Hospital,Outbound,HL7,Processed,336,11.43,ClaimsExchange
+EX-00417,2026-10-15,ORG001,Meridian General Hospital,Inbound,XML,Pending,6,,LabResults
+EX-00257,2026-10-15,ORG009,ValleyCare Clinic,Outbound,HL7,Processed,537,5.35,EncounterSync
+EX-00244,2026-10-15,ORG005,Lakeside Health Clinic,Outbound,HL7,Processed,589,10.08,EncounterSync
+EX-00219,2026-10-15,ORG005,Lakeside Health Clinic,Outbound,Claims,Processed,70,17.26,LabResults
+EX-00190,2026-10-15,ORG005,Lakeside Health Clinic,Outbound,FHIR,Processed,254,16.79,AdmissionFeed
+EX-00155,2026-10-15,ORG002,Harborview Medical Center,Inbound,XML,Processed,163,8.12,EncounterSync
+EX-00131,2026-10-15,ORG005,Lakeside Health Clinic,Outbound,HL7,Processed,570,8.64,EncounterSync
+EX-00039,2026-10-15,ORG002,Harborview Medical Center,Outbound,FHIR,Processed,189,15.5,LabResults
+EX-00533,2026-10-14,ORG003,Oakfield Family Clinic,Inbound,HL7,Processed,494,13.15,ClaimsExchange
+EX-00505,2026-10-14,ORG003,Oakfield Family Clinic,Outbound,Claims,Processed,163,8.86,LabResults
+EX-00468,2026-10-14,ORG004,Cedarbridge Hospital,Inbound,Claims,Processed,298,13.98,AdmissionFeed
+EX-00390,2026-10-14,ORG006,Bluewater Medical Group,Inbound,XML,Processed,463,8.13,LabResults
+EX-00357,2026-10-14,ORG002,Harborview Medical Center,Outbound,XML,Processed,207,7.24,LabResults
+EX-00286,2026-10-14,ORG005,Lakeside Health Clinic,Outbound,FHIR,Processed,262,12.47,ClaimsExchange
+EX-00247,2026-10-14,ORG010,Riverside Health Center,Inbound,HL7,Processed,223,7.68,LabResults
+EX-00160,2026-10-14,ORG008,Greenway Specialty Center,Inbound,HL7,Processed,463,12.97,LabResults
+EX-00152,2026-10-14,ORG007,Summit Regional Hospital,Inbound,HL7,Processed,228,1.99,AdmissionFeed
+EX-00145,2026-10-14,ORG010,Riverside Health Center,Outbound,Claims,Processed,327,17.13,EncounterSync
+EX-00536,2026-10-13,ORG005,Lakeside Health Clinic,Outbound,FHIR,Processed,537,12.64,ClaimsExchange
+EX-00479,2026-10-13,ORG005,Lakeside Health Clinic,Inbound,HL7,Processed,86,4.76,EncounterSync
+EX-00418,2026-10-13,ORG001,Meridian General Hospital,Outbound,HL7,Processed,88,1.21,ClaimsExchange
+EX-00133,2026-10-13,ORG005,Lakeside Health Clinic,Outbound,XML,Processed,125,14.81,EncounterSync
+EX-00055,2026-10-13,ORG007,Summit Regional Hospital,Outbound,Claims,Processed,595,10.7,ClaimsExchange
+EX-00015,2026-10-13,ORG007,Summit Regional Hospital,Inbound,HL7,Processed,225,16.27,LabResults
+EX-00521,2026-10-12,ORG004,Cedarbridge Hospital,Outbound,Claims,Processed,179,15.39,ClaimsExchange
+EX-00490,2026-10-12,ORG001,Meridian General Hospital,Inbound,FHIR,Processed,544,17.39,ClaimsExchange
+EX-00433,2026-10-12,ORG006,Bluewater Medical Group,Outbound,XML,Processed,518,1.14,EncounterSync
+EX-00398,2026-10-12,ORG005,Lakeside Health Clinic,Inbound,Claims,Failed,322,15.42,AdmissionFeed
+EX-00396,2026-10-12,ORG006,Bluewater Medical Group,Outbound,XML,Failed,186,8.42,EncounterSync
+EX-00301,2026-10-12,ORG005,Lakeside Health Clinic,Inbound,HL7,Processed,385,8.63,LabResults
+EX-00263,2026-10-12,ORG006,Bluewater Medical Group,Inbound,FHIR,Failed,365,18.5,LabResults
+EX-00137,2026-10-11,ORG001,Meridian General Hospital,Inbound,XML,Failed,379,3.69,EncounterSync
+EX-00027,2026-10-11,ORG003,Oakfield Family Clinic,Outbound,FHIR,Processed,266,0.87,ClaimsExchange
+EX-00389,2026-10-10,ORG002,Harborview Medical Center,Outbound,XML,Processed,509,15.53,LabResults
+EX-00109,2026-10-10,ORG009,ValleyCare Clinic,Inbound,XML,Processed,379,6.34,EncounterSync
+EX-00032,2026-10-10,ORG010,Riverside Health Center,Outbound,XML,Processed,585,11.56,EncounterSync
+EX-00476,2026-10-09,ORG003,Oakfield Family Clinic,Outbound,XML,Pending,287,,EncounterSync
+EX-00432,2026-10-09,ORG010,Riverside Health Center,Inbound,HL7,Pending,93,,LabResults
+EX-00321,2026-10-09,ORG003,Oakfield Family Clinic,Outbound,Claims,Processed,407,18.34,EncounterSync
+EX-00282,2026-10-09,ORG006,Bluewater Medical Group,Outbound,HL7,Processed,337,9.85,ClaimsExchange
+EX-00116,2026-10-09,ORG008,Greenway Specialty Center,Outbound,Claims,Processed,238,10.8,LabResults
+EX-00436,2026-10-08,ORG006,Bluewater Medical Group,Inbound,Claims,Processed,444,1.62,LabResults
+EX-00422,2026-10-08,ORG007,Summit Regional Hospital,Inbound,FHIR,Processed,306,15.29,ClaimsExchange
+EX-00218,2026-10-08,ORG004,Cedarbridge Hospital,Outbound,FHIR,Processed,436,7.16,ClaimsExchange
+EX-00053,2026-10-08,ORG009,ValleyCare Clinic,Outbound,HL7,Processed,405,5.96,LabResults
+EX-00535,2026-10-07,ORG004,Cedarbridge Hospital,Inbound,FHIR,Processed,544,5.79,AdmissionFeed
+EX-00511,2026-10-07,ORG007,Summit Regional Hospital,Outbound,XML,Processed,444,5.78,ClaimsExchange
+EX-00473,2026-10-07,ORG002,Harborview Medical Center,Inbound,XML,Processed,216,6.54,ClaimsExchange
+EX-00407,2026-10-07,ORG010,Riverside Health Center,Outbound,Claims,Processed,393,0.91,LabResults
+EX-00380,2026-10-07,ORG009,ValleyCare Clinic,Outbound,XML,Failed,14,12.46,LabResults
+EX-00279,2026-10-07,ORG002,Harborview Medical Center,Outbound,XML,Processed,35,12.09,LabResults
+EX-00191,2026-10-07,ORG008,Greenway Specialty Center,Outbound,HL7,Processed,23,2.88,ClaimsExchange
+EX-00096,2026-10-07,ORG001,Meridian General Hospital,Outbound,HL7,Processed,456,9.33,LabResults
+EX-00537,2026-10-06,ORG008,Greenway Specialty Center,Inbound,XML,Processed,367,4.67,AdmissionFeed
+EX-00457,2026-10-06,ORG009,ValleyCare Clinic,Inbound,XML,Failed,535,5.03,ClaimsExchange
+EX-00445,2026-10-06,ORG010,Riverside Health Center,Inbound,XML,Processed,423,6.92,ClaimsExchange
+EX-00288,2026-10-06,ORG004,Cedarbridge Hospital,Inbound,XML,Processed,370,9.53,ClaimsExchange
+EX-00267,2026-10-06,ORG009,ValleyCare Clinic,Outbound,XML,Processed,81,8.67,ClaimsExchange
+EX-00199,2026-10-06,ORG005,Lakeside Health Clinic,Inbound,XML,Processed,409,6.14,EncounterSync
+EX-00064,2026-10-06,ORG002,Harborview Medical Center,Outbound,FHIR,Processed,96,4.56,EncounterSync
+EX-00058,2026-10-06,ORG007,Summit Regional Hospital,Outbound,XML,Pending,152,,AdmissionFeed
+EX-00519,2026-10-05,ORG009,ValleyCare Clinic,Outbound,HL7,Processed,443,9.37,AdmissionFeed
+EX-00365,2026-10-05,ORG009,ValleyCare Clinic,Inbound,Claims,Processed,444,8.19,AdmissionFeed
+EX-00299,2026-10-05,ORG010,Riverside Health Center,Inbound,Claims,Processed,101,15.66,LabResults
+EX-00142,2026-10-05,ORG010,Riverside Health Center,Inbound,Claims,Processed,383,15.11,EncounterSync
+EX-00119,2026-10-05,ORG009,ValleyCare Clinic,Inbound,FHIR,Processed,377,2.96,AdmissionFeed
+EX-00118,2026-10-05,ORG007,Summit Regional Hospital,Inbound,FHIR,Processed,555,18.59,AdmissionFeed
+EX-00359,2026-10-04,ORG001,Meridian General Hospital,Inbound,Claims,Processed,468,6.66,EncounterSync
+EX-00347,2026-10-04,ORG006,Bluewater Medical Group,Inbound,FHIR,Processed,384,16.97,AdmissionFeed
+EX-00220,2026-10-04,ORG006,Bluewater Medical Group,Outbound,FHIR,Processed,106,11.28,LabResults
+EX-00196,2026-10-04,ORG004,Cedarbridge Hospital,Inbound,XML,Pending,146,,LabResults
+EX-00115,2026-10-04,ORG001,Meridian General Hospital,Inbound,XML,Pending,488,,ClaimsExchange
+EX-00041,2026-10-04,ORG002,Harborview Medical Center,Inbound,HL7,Processed,156,11.07,LabResults
+EX-00471,2026-10-03,ORG004,Cedarbridge Hospital,Outbound,HL7,Processed,471,16.12,AdmissionFeed
+EX-00460,2026-10-03,ORG009,ValleyCare Clinic,Outbound,Claims,Processed,431,4.26,LabResults
+EX-00358,2026-10-03,ORG006,Bluewater Medical Group,Outbound,FHIR,Processed,350,7.39,AdmissionFeed
+EX-00337,2026-10-03,ORG002,Harborview Medical Center,Outbound,XML,Processed,469,1.54,ClaimsExchange
+EX-00271,2026-10-03,ORG003,Oakfield Family Clinic,Outbound,Claims,Processed,387,9.96,ClaimsExchange
+EX-00225,2026-10-03,ORG002,Harborview Medical Center,Inbound,Claims,Processed,595,17.3,LabResults
+EX-00091,2026-10-03,ORG001,Meridian General Hospital,Outbound,XML,Processed,218,8.3,ClaimsExchange
+EX-00047,2026-10-03,ORG007,Summit Regional Hospital,Outbound,HL7,Processed,484,11.31,EncounterSync
+EX-00530,2026-10-02,ORG004,Cedarbridge Hospital,Outbound,Claims,Processed,70,3.15,LabResults
+EX-00515,2026-10-02,ORG001,Meridian General Hospital,Outbound,XML,Processed,31,14.57,AdmissionFeed
+EX-00494,2026-10-02,ORG009,ValleyCare Clinic,Inbound,XML,Processed,554,10.44,ClaimsExchange
+EX-00414,2026-10-02,ORG002,Harborview Medical Center,Outbound,Claims,Processed,30,8.96,EncounterSync
+EX-00296,2026-10-02,ORG005,Lakeside Health Clinic,Outbound,HL7,Processed,253,11.77,EncounterSync
+EX-00249,2026-10-02,ORG006,Bluewater Medical Group,Inbound,XML,Failed,383,16.02,ClaimsExchange
+EX-00222,2026-10-02,ORG007,Summit Regional Hospital,Inbound,FHIR,Processed,597,18.57,AdmissionFeed
+EX-00108,2026-10-02,ORG005,Lakeside Health Clinic,Outbound,HL7,Processed,388,18.16,AdmissionFeed
+EX-00534,2026-10-01,ORG004,Cedarbridge Hospital,Outbound,FHIR,Processed,139,7.83,LabResults
+EX-00278,2026-10-01,ORG010,Riverside Health Center,Outbound,XML,Processed,306,13.68,LabResults
+EX-00176,2026-10-01,ORG001,Meridian General Hospital,Outbound,Claims,Processed,79,2.86,ClaimsExchange
+EX-00149,2026-10-01,ORG008,Greenway Specialty Center,Inbound,HL7,Processed,440,12.07,ClaimsExchange
+EX-00101,2026-10-01,ORG007,Summit Regional Hospital,Inbound,FHIR,Processed,320,14.27,AdmissionFeed
+EX-00077,2026-10-01,ORG004,Cedarbridge Hospital,Inbound,XML,Processed,47,10.6,EncounterSync
+EX-00024,2026-10-01,ORG002,Harborview Medical Center,Outbound,Claims,Pending,151,,LabResults
+EX-00002,2026-10-01,ORG009,ValleyCare Clinic,Outbound,FHIR,Processed,129,18.16,LabResults
+EX-00491,2026-09-30,ORG002,Harborview Medical Center,Inbound,FHIR,Processed,600,13.64,ClaimsExchange
+EX-00193,2026-09-30,ORG005,Lakeside Health Clinic,Outbound,FHIR,Processed,226,18.66,AdmissionFeed
+EX-00159,2026-09-30,ORG004,Cedarbridge Hospital,Outbound,Claims,Processed,568,15.84,AdmissionFeed
+EX-00140,2026-09-30,ORG005,Lakeside Health Clinic,Outbound,XML,Processed,432,5.85,EncounterSync
+EX-00084,2026-09-30,ORG010,Riverside Health Center,Outbound,HL7,Processed,317,1.64,AdmissionFeed
+EX-00410,2026-09-29,ORG009,ValleyCare Clinic,Outbound,HL7,Processed,165,9.17,LabResults
+EX-00370,2026-09-29,ORG002,Harborview Medical Center,Outbound,XML,Processed,199,7.79,LabResults
+EX-00232,2026-09-29,ORG008,Greenway Specialty Center,Inbound,HL7,Processed,170,12.92,AdmissionFeed
+EX-00130,2026-09-29,ORG005,Lakeside Health Clinic,Inbound,FHIR,Processed,448,4.92,AdmissionFeed
+EX-00489,2026-09-28,ORG005,Lakeside Health Clinic,Outbound,XML,Processed,365,16.79,EncounterSync
+EX-00306,2026-09-28,ORG004,Cedarbridge Hospital,Inbound,HL7,Processed,284,11.85,EncounterSync
+EX-00294,2026-09-28,ORG004,Cedarbridge Hospital,Inbound,Claims,Processed,512,3.23,LabResults
+EX-00516,2026-09-27,ORG003,Oakfield Family Clinic,Outbound,XML,Processed,138,14.63,LabResults
+EX-00461,2026-09-27,ORG004,Cedarbridge Hospital,Inbound,FHIR,Processed,23,17.89,ClaimsExchange
+EX-00385,2026-09-27,ORG004,Cedarbridge Hospital,Inbound,FHIR,Processed,112,16.56,LabResults
+EX-00105,2026-09-27,ORG003,Oakfield Family Clinic,Outbound,FHIR,Processed,389,9.16,AdmissionFeed
+EX-00099,2026-09-27,ORG009,ValleyCare Clinic,Inbound,Claims,Processed,79,13.96,AdmissionFeed
+EX-00090,2026-09-27,ORG009,ValleyCare Clinic,Inbound,HL7,Processed,140,11.73,EncounterSync
+EX-00033,2026-09-27,ORG004,Cedarbridge Hospital,Inbound,FHIR,Processed,426,1.2,ClaimsExchange
+EX-00520,2026-09-26,ORG002,Harborview Medical Center,Inbound,Claims,Processed,449,2.47,LabResults
+EX-00470,2026-09-26,ORG003,Oakfield Family Clinic,Inbound,HL7,Failed,501,11.29,ClaimsExchange
+EX-00336,2026-09-26,ORG005,Lakeside Health Clinic,Inbound,Claims,Processed,572,1.66,LabResults
+EX-00221,2026-09-26,ORG007,Summit Regional Hospital,Outbound,FHIR,Pending,577,,EncounterSync
+EX-00189,2026-09-26,ORG001,Meridian General Hospital,Outbound,FHIR,Processed,273,12.73,EncounterSync
+EX-00186,2026-09-26,ORG006,Bluewater Medical Group,Inbound,HL7,Processed,227,7.23,AdmissionFeed
+EX-00138,2026-09-26,ORG010,Riverside Health Center,Outbound,FHIR,Failed,517,0.24,AdmissionFeed
+EX-00045,2026-09-26,ORG009,ValleyCare Clinic,Inbound,HL7,Pending,362,,LabResults
+EX-00397,2026-09-25,ORG002,Harborview Medical Center,Outbound,XML,Processed,113,1.48,LabResults
+EX-00342,2026-09-25,ORG003,Oakfield Family Clinic,Outbound,HL7,Processed,458,8.76,ClaimsExchange
+EX-00122,2026-09-25,ORG001,Meridian General Hospital,Outbound,XML,Processed,336,9.92,EncounterSync
+EX-00081,2026-09-25,ORG003,Oakfield Family Clinic,Outbound,Claims,Processed,117,13.94,AdmissionFeed
+EX-00018,2026-09-25,ORG004,Cedarbridge Hospital,Inbound,FHIR,Processed,21,11.01,ClaimsExchange
+EX-00010,2026-09-25,ORG004,Cedarbridge Hospital,Inbound,XML,Processed,202,7.87,EncounterSync
+EX-00512,2026-09-24,ORG004,Cedarbridge Hospital,Outbound,HL7,Processed,568,15.41,AdmissionFeed
+EX-00499,2026-09-24,ORG010,Riverside Health Center,Inbound,HL7,Processed,456,13.85,AdmissionFeed
+EX-00354,2026-09-24,ORG003,Oakfield Family Clinic,Outbound,FHIR,Processed,368,16.69,ClaimsExchange
+EX-00316,2026-09-24,ORG007,Summit Regional Hospital,Outbound,FHIR,Processed,390,16.51,ClaimsExchange
+EX-00239,2026-09-24,ORG009,ValleyCare Clinic,Inbound,Claims,Processed,421,3.8,AdmissionFeed
+EX-00117,2026-09-24,ORG007,Summit Regional Hospital,Outbound,Claims,Processed,38,18.4,EncounterSync
+EX-00488,2026-09-23,ORG007,Summit Regional Hospital,Outbound,XML,Processed,444,8.58,AdmissionFeed
+EX-00455,2026-09-23,ORG004,Cedarbridge Hospital,Outbound,FHIR,Processed,560,16.5,EncounterSync
+EX-00388,2026-09-23,ORG009,ValleyCare Clinic,Inbound,FHIR,Pending,19,,AdmissionFeed
+EX-00320,2026-09-23,ORG002,Harborview Medical Center,Inbound,FHIR,Processed,555,4.26,LabResults
+EX-00098,2026-09-23,ORG001,Meridian General Hospital,Inbound,Claims,Pending,11,,AdmissionFeed
+EX-00052,2026-09-23,ORG003,Oakfield Family Clinic,Outbound,HL7,Failed,144,12.84,EncounterSync
+EX-00517,2026-09-22,ORG004,Cedarbridge Hospital,Outbound,FHIR,Processed,413,7.15,LabResults
+EX-00408,2026-09-22,ORG002,Harborview Medical Center,Outbound,XML,Failed,377,14.02,ClaimsExchange
+EX-00360,2026-09-22,ORG002,Harborview Medical Center,Inbound,FHIR,Processed,418,10.27,ClaimsExchange
+EX-00197,2026-09-22,ORG002,Harborview Medical Center,Inbound,XML,Processed,410,2.82,AdmissionFeed
+EX-00110,2026-09-22,ORG005,Lakeside Health Clinic,Outbound,XML,Processed,370,4.47,LabResults
+EX-00050,2026-09-22,ORG002,Harborview Medical Center,Inbound,XML,Processed,483,12.66,LabResults
+EX-00500,2026-09-21,ORG010,Riverside Health Center,Outbound,Claims,Failed,72,9.54,EncounterSync
+EX-00391,2026-09-21,ORG003,Oakfield Family Clinic,Outbound,XML,Processed,96,10.97,ClaimsExchange
+EX-00319,2026-09-21,ORG001,Meridian General Hospital,Inbound,FHIR,Processed,43,8.1,AdmissionFeed
+EX-00285,2026-09-21,ORG003,Oakfield Family Clinic,Outbound,Claims,Processed,435,1.31,ClaimsExchange
+EX-00255,2026-09-21,ORG002,Harborview Medical Center,Inbound,HL7,Processed,513,7.53,LabResults
+EX-00026,2026-09-21,ORG008,Greenway Specialty Center,Outbound,FHIR,Processed,54,9.41,ClaimsExchange
+EX-00526,2026-09-20,ORG005,Lakeside Health Clinic,Outbound,FHIR,Processed,495,6.1,ClaimsExchange
+EX-00524,2026-09-20,ORG001,Meridian General Hospital,Inbound,FHIR,Processed,494,16.34,EncounterSync
+EX-00434,2026-09-20,ORG007,Summit Regional Hospital,Inbound,FHIR,Processed,508,13.36,LabResults
+EX-00253,2026-09-20,ORG008,Greenway Specialty Center,Outbound,HL7,Processed,525,4.98,EncounterSync
+EX-00143,2026-09-20,ORG008,Greenway Specialty Center,Inbound,XML,Processed,240,16.73,AdmissionFeed
+EX-00132,2026-09-20,ORG002,Harborview Medical Center,Outbound,FHIR,Processed,92,6.67,ClaimsExchange
+EX-00129,2026-09-20,ORG003,Oakfield Family Clinic,Inbound,HL7,Processed,372,3.42,AdmissionFeed
+EX-00412,2026-09-19,ORG005,Lakeside Health Clinic,Outbound,XML,Processed,87,13.35,ClaimsExchange
+EX-00393,2026-09-19,ORG004,Cedarbridge Hospital,Inbound,HL7,Processed,353,16.02,EncounterSync
+EX-00364,2026-09-19,ORG010,Riverside Health Center,Outbound,Claims,Processed,598,10.85,EncounterSync
+EX-00289,2026-09-19,ORG002,Harborview Medical Center,Outbound,Claims,Processed,577,5.26,AdmissionFeed
+EX-00274,2026-09-19,ORG002,Harborview Medical Center,Inbound,FHIR,Processed,75,6.5,AdmissionFeed
+EX-00194,2026-09-19,ORG006,Bluewater Medical Group,Outbound,Claims,Processed,131,6.83,LabResults
+EX-00068,2026-09-19,ORG006,Bluewater Medical Group,Inbound,HL7,Processed,138,14.98,LabResults
+EX-00051,2026-09-19,ORG009,ValleyCare Clinic,Inbound,XML,Processed,58,18.34,ClaimsExchange
+EX-00345,2026-09-18,ORG006,Bluewater Medical Group,Outbound,HL7,Processed,191,15.09,AdmissionFeed
+EX-00335,2026-09-18,ORG004,Cedarbridge Hospital,Outbound,FHIR,Processed,179,7.52,EncounterSync
+EX-00234,2026-09-18,ORG003,Oakfield Family Clinic,Outbound,Claims,Failed,559,16.98,ClaimsExchange
+EX-00066,2026-09-18,ORG006,Bluewater Medical Group,Inbound,Claims,Failed,60,13.84,LabResults
+EX-00522,2026-09-17,ORG009,ValleyCare Clinic,Inbound,FHIR,Pending,56,,LabResults
+EX-00486,2026-09-17,ORG002,Harborview Medical Center,Inbound,FHIR,Processed,491,17.24,AdmissionFeed
+EX-00367,2026-09-17,ORG006,Bluewater Medical Group,Inbound,Claims,Processed,169,12.06,LabResults
+EX-00361,2026-09-17,ORG007,Summit Regional Hospital,Outbound,FHIR,Processed,201,8.78,AdmissionFeed
+EX-00248,2026-09-17,ORG008,Greenway Specialty Center,Inbound,HL7,Processed,470,17.72,LabResults
+EX-00231,2026-09-17,ORG001,Meridian General Hospital,Inbound,FHIR,Processed,181,6.4,AdmissionFeed
+EX-00230,2026-09-17,ORG004,Cedarbridge Hospital,Outbound,HL7,Processed,219,4.49,AdmissionFeed
+EX-00207,2026-09-17,ORG005,Lakeside Health Clinic,Inbound,XML,Pending,22,,AdmissionFeed
+EX-00528,2026-09-16,ORG006,Bluewater Medical Group,Inbound,XML,Processed,232,15.29,EncounterSync
+EX-00507,2026-09-16,ORG007,Summit Regional Hospital,Inbound,FHIR,Failed,126,7.72,AdmissionFeed
+EX-00334,2026-09-16,ORG008,Greenway Specialty Center,Outbound,Claims,Processed,66,0.3,ClaimsExchange
+EX-00214,2026-09-16,ORG001,Meridian General Hospital,Outbound,XML,Processed,263,7.67,ClaimsExchange
+EX-00198,2026-09-16,ORG005,Lakeside Health Clinic,Outbound,Claims,Processed,310,2.5,AdmissionFeed
+EX-00170,2026-09-16,ORG003,Oakfield Family Clinic,Inbound,XML,Processed,169,8.26,AdmissionFeed
+EX-00135,2026-09-16,ORG007,Summit Regional Hospital,Inbound,Claims,Processed,215,16.95,ClaimsExchange
+EX-00025,2026-09-16,ORG010,Riverside Health Center,Inbound,HL7,Processed,374,14.08,LabResults
+EX-00260,2026-09-15,ORG001,Meridian General Hospital,Outbound,Claims,Processed,94,14.42,EncounterSync
+EX-00089,2026-09-15,ORG008,Greenway Specialty Center,Inbound,XML,Processed,493,8.56,EncounterSync
+EX-00477,2026-09-14,ORG008,Greenway Specialty Center,Inbound,HL7,Processed,74,2.34,ClaimsExchange
+EX-00326,2026-09-14,ORG002,Harborview Medical Center,Inbound,Claims,Processed,422,6.9,LabResults
+EX-00300,2026-09-14,ORG006,Bluewater Medical Group,Inbound,HL7,Processed,196,4.19,EncounterSync
+EX-00223,2026-09-14,ORG001,Meridian General Hospital,Inbound,Claims,Processed,174,16.4,ClaimsExchange
+EX-00213,2026-09-14,ORG002,Harborview Medical Center,Outbound,XML,Pending,578,,AdmissionFeed
+EX-00425,2026-09-13,ORG005,Lakeside Health Clinic,Outbound,FHIR,Processed,428,6.04,ClaimsExchange
+EX-00395,2026-09-13,ORG009,ValleyCare Clinic,Inbound,HL7,Processed,95,12.47,LabResults
+EX-00368,2026-09-13,ORG007,Summit Regional Hospital,Outbound,HL7,Processed,567,16.64,LabResults
+EX-00318,2026-09-13,ORG004,Cedarbridge Hospital,Inbound,HL7,Failed,183,17.69,LabResults
+EX-00095,2026-09-13,ORG005,Lakeside Health Clinic,Outbound,HL7,Processed,177,16.45,ClaimsExchange
+EX-00056,2026-09-13,ORG005,Lakeside Health Clinic,Inbound,XML,Processed,559,7.74,AdmissionFeed
+EX-00005,2026-09-13,ORG010,Riverside Health Center,Inbound,FHIR,Processed,409,12.14,ClaimsExchange
+EX-00540,2026-09-12,ORG003,Oakfield Family Clinic,Outbound,XML,Processed,136,6.6,EncounterSync
+EX-00416,2026-09-12,ORG010,Riverside Health Center,Inbound,XML,Processed,528,6.02,ClaimsExchange
+EX-00228,2026-09-12,ORG009,ValleyCare Clinic,Inbound,XML,Failed,402,10.54,ClaimsExchange
+EX-00227,2026-09-12,ORG009,ValleyCare Clinic,Outbound,FHIR,Processed,344,7.33,LabResults
+EX-00459,2026-09-11,ORG008,Greenway Specialty Center,Inbound,FHIR,Processed,343,14.19,LabResults
+EX-00211,2026-09-11,ORG009,ValleyCare Clinic,Outbound,XML,Failed,552,3.45,AdmissionFeed
+EX-00268,2026-09-10,ORG010,Riverside Health Center,Inbound,HL7,Processed,469,1.65,AdmissionFeed
+EX-00256,2026-09-10,ORG010,Riverside Health Center,Outbound,Claims,Processed,38,2.77,ClaimsExchange
+EX-00531,2026-09-09,ORG002,Harborview Medical Center,Outbound,FHIR,Processed,370,1.98,LabResults
+EX-00484,2026-09-09,ORG009,ValleyCare Clinic,Inbound,Claims,Failed,206,12.91,EncounterSync
+EX-00371,2026-09-09,ORG008,Greenway Specialty Center,Outbound,XML,Processed,482,18.7,EncounterSync
+EX-00303,2026-09-09,ORG010,Riverside Health Center,Inbound,XML,Processed,329,17.64,EncounterSync
+EX-00298,2026-09-09,ORG008,Greenway Specialty Center,Outbound,HL7,Pending,34,,LabResults
+EX-00295,2026-09-09,ORG009,ValleyCare Clinic,Outbound,Claims,Processed,586,12.82,AdmissionFeed
+EX-00291,2026-09-09,ORG008,Greenway Specialty Center,Inbound,Claims,Processed,88,12.35,LabResults
+EX-00177,2026-09-09,ORG010,Riverside Health Center,Outbound,Claims,Processed,370,2.46,EncounterSync
+EX-00163,2026-09-09,ORG002,Harborview Medical Center,Inbound,XML,Processed,195,15.16,AdmissionFeed
+EX-00538,2026-09-08,ORG004,Cedarbridge Hospital,Outbound,HL7,Processed,17,7.82,ClaimsExchange
+EX-00509,2026-09-08,ORG007,Summit Regional Hospital,Outbound,HL7,Processed,133,8.6,AdmissionFeed
+EX-00472,2026-09-08,ORG004,Cedarbridge Hospital,Outbound,HL7,Failed,584,14.91,AdmissionFeed
+EX-00448,2026-09-08,ORG009,ValleyCare Clinic,Outbound,FHIR,Failed,429,8.05,EncounterSync
+EX-00438,2026-09-08,ORG007,Summit Regional Hospital,Inbound,FHIR,Processed,434,5.07,EncounterSync
+EX-00352,2026-09-08,ORG002,Harborview Medical Center,Inbound,XML,Processed,49,18.18,EncounterSync
+EX-00165,2026-09-08,ORG008,Greenway Specialty Center,Outbound,XML,Processed,492,14.92,LabResults
+EX-00075,2026-09-08,ORG008,Greenway Specialty Center,Inbound,XML,Processed,340,7.02,AdmissionFeed
+EX-00028,2026-09-08,ORG005,Lakeside Health Clinic,Inbound,FHIR,Processed,68,15.07,LabResults
+EX-00264,2026-09-07,ORG004,Cedarbridge Hospital,Outbound,Claims,Processed,13,13.94,ClaimsExchange
+EX-00226,2026-09-07,ORG004,Cedarbridge Hospital,Outbound,XML,Processed,113,2.86,EncounterSync
+EX-00042,2026-09-07,ORG008,Greenway Specialty Center,Outbound,Claims,Processed,214,15.59,AdmissionFeed
+EX-00020,2026-09-07,ORG007,Summit Regional Hospital,Inbound,FHIR,Processed,511,16.86,LabResults
+EX-00017,2026-09-07,ORG010,Riverside Health Center,Inbound,HL7,Processed,478,3.81,AdmissionFeed
+EX-00492,2026-09-06,ORG010,Riverside Health Center,Inbound,FHIR,Processed,111,5.61,AdmissionFeed
+EX-00402,2026-09-06,ORG007,Summit Regional Hospital,Outbound,FHIR,Failed,571,2.07,LabResults
+EX-00355,2026-09-06,ORG006,Bluewater Medical Group,Inbound,HL7,Processed,490,9.75,ClaimsExchange
+EX-00314,2026-09-06,ORG007,Summit Regional Hospital,Inbound,FHIR,Failed,307,12.58,EncounterSync
+EX-00182,2026-09-06,ORG006,Bluewater Medical Group,Inbound,XML,Processed,591,7.15,AdmissionFeed
+EX-00112,2026-09-06,ORG002,Harborview Medical Center,Outbound,HL7,Processed,46,1.6,AdmissionFeed
+EX-00062,2026-09-06,ORG002,Harborview Medical Center,Outbound,HL7,Failed,600,16.83,EncounterSync
+EX-00495,2026-09-05,ORG008,Greenway Specialty Center,Inbound,FHIR,Processed,144,9.31,AdmissionFeed
+EX-00378,2026-09-05,ORG008,Greenway Specialty Center,Outbound,XML,Processed,475,6.11,AdmissionFeed
+EX-00362,2026-09-05,ORG010,Riverside Health Center,Outbound,XML,Processed,494,17.78,ClaimsExchange
+EX-00349,2026-09-05,ORG009,ValleyCare Clinic,Outbound,FHIR,Processed,445,14.24,ClaimsExchange
+EX-00217,2026-09-05,ORG008,Greenway Specialty Center,Outbound,FHIR,Processed,21,18.2,LabResults
+EX-00148,2026-09-05,ORG010,Riverside Health Center,Inbound,FHIR,Processed,403,9.11,ClaimsExchange
+EX-00059,2026-09-05,ORG010,Riverside Health Center,Inbound,HL7,Processed,479,16.41,LabResults
+EX-00250,2026-09-04,ORG002,Harborview Medical Center,Inbound,HL7,Pending,380,,ClaimsExchange
+EX-00243,2026-09-04,ORG003,Oakfield Family Clinic,Inbound,FHIR,Processed,65,12.56,EncounterSync
+EX-00394,2026-09-03,ORG004,Cedarbridge Hospital,Outbound,FHIR,Processed,598,0.96,EncounterSync
+EX-00235,2026-09-03,ORG006,Bluewater Medical Group,Inbound,Claims,Pending,433,,LabResults
+EX-00082,2026-09-03,ORG003,Oakfield Family Clinic,Outbound,FHIR,Pending,434,,EncounterSync
+EX-00072,2026-09-03,ORG002,Harborview Medical Center,Outbound,FHIR,Failed,512,8.75,LabResults
+EX-00384,2026-09-02,ORG001,Meridian General Hospital,Inbound,XML,Processed,154,13.05,AdmissionFeed
+EX-00366,2026-09-02,ORG008,Greenway Specialty Center,Outbound,FHIR,Processed,579,18.69,AdmissionFeed
+EX-00229,2026-09-02,ORG007,Summit Regional Hospital,Outbound,XML,Processed,163,1.01,EncounterSync
+EX-00224,2026-09-02,ORG001,Meridian General Hospital,Outbound,XML,Processed,400,2.2,AdmissionFeed
+EX-00215,2026-09-02,ORG002,Harborview Medical Center,Inbound,XML,Processed,500,15.2,LabResults
+EX-00192,2026-09-02,ORG009,ValleyCare Clinic,Inbound,HL7,Pending,541,,EncounterSync
+EX-00209,2026-09-01,ORG007,Summit Regional Hospital,Outbound,FHIR,Processed,279,10.81,EncounterSync
+EX-00184,2026-09-01,ORG002,Harborview Medical Center,Inbound,HL7,Processed,235,5.38,EncounterSync
+EX-00421,2026-08-31,ORG003,Oakfield Family Clinic,Inbound,XML,Processed,59,18.72,AdmissionFeed
+EX-00375,2026-08-31,ORG006,Bluewater Medical Group,Inbound,XML,Processed,600,16.18,ClaimsExchange
+EX-00341,2026-08-31,ORG008,Greenway Specialty Center,Inbound,XML,Processed,265,10.19,ClaimsExchange
+EX-00153,2026-08-31,ORG002,Harborview Medical Center,Inbound,Claims,Processed,563,7.06,AdmissionFeed
+EX-00085,2026-08-31,ORG009,ValleyCare Clinic,Inbound,XML,Processed,106,2.3,EncounterSync
+EX-00060,2026-08-31,ORG008,Greenway Specialty Center,Outbound,XML,Processed,109,2.61,AdmissionFeed
+EX-00497,2026-08-30,ORG009,ValleyCare Clinic,Outbound,Claims,Failed,121,7.9,ClaimsExchange
+EX-00431,2026-08-30,ORG007,Summit Regional Hospital,Inbound,FHIR,Processed,463,0.45,AdmissionFeed
+EX-00429,2026-08-30,ORG006,Bluewater Medical Group,Inbound,Claims,Processed,121,4.53,EncounterSync
+EX-00187,2026-08-30,ORG002,Harborview Medical Center,Outbound,HL7,Processed,359,13.81,ClaimsExchange
+EX-00493,2026-08-29,ORG004,Cedarbridge Hospital,Outbound,FHIR,Processed,115,2.66,ClaimsExchange
+EX-00405,2026-08-29,ORG002,Harborview Medical Center,Outbound,HL7,Processed,383,1.57,AdmissionFeed
+EX-00504,2026-08-28,ORG007,Summit Regional Hospital,Inbound,XML,Processed,408,3.65,AdmissionFeed
+EX-00454,2026-08-28,ORG006,Bluewater Medical Group,Outbound,FHIR,Processed,60,15.83,LabResults
+EX-00323,2026-08-28,ORG006,Bluewater Medical Group,Inbound,FHIR,Processed,390,3.84,ClaimsExchange
+EX-00313,2026-08-28,ORG010,Riverside Health Center,Outbound,FHIR,Processed,59,7.55,EncounterSync
+EX-00525,2026-08-27,ORG007,Summit Regional Hospital,Outbound,Claims,Processed,377,10.06,LabResults
+EX-00435,2026-08-27,ORG001,Meridian General Hospital,Inbound,Claims,Processed,499,0.51,LabResults
+EX-00413,2026-08-27,ORG009,ValleyCare Clinic,Inbound,Claims,Processed,337,2.43,LabResults
+EX-00386,2026-08-27,ORG004,Cedarbridge Hospital,Inbound,FHIR,Processed,91,2.59,AdmissionFeed
+EX-00331,2026-08-27,ORG002,Harborview Medical Center,Inbound,FHIR,Processed,158,3.05,ClaimsExchange
+EX-00269,2026-08-27,ORG004,Cedarbridge Hospital,Outbound,Claims,Processed,457,5.56,ClaimsExchange
+EX-00100,2026-08-27,ORG007,Summit Regional Hospital,Outbound,FHIR,Processed,286,3.61,ClaimsExchange
+EX-00083,2026-08-27,ORG006,Bluewater Medical Group,Inbound,HL7,Processed,250,1.48,LabResults
+EX-00049,2026-08-27,ORG010,Riverside Health Center,Inbound,FHIR,Processed,470,4.56,ClaimsExchange
+EX-00030,2026-08-27,ORG007,Summit Regional Hospital,Outbound,FHIR,Processed,453,11.93,LabResults
+EX-00007,2026-08-27,ORG006,Bluewater Medical Group,Inbound,XML,Pending,447,,EncounterSync
+EX-00019,2026-08-26,ORG010,Riverside Health Center,Inbound,FHIR,Processed,146,5.68,LabResults
+EX-00003,2026-08-26,ORG005,Lakeside Health Clinic,Inbound,HL7,Processed,131,9.39,ClaimsExchange
+EX-00462,2026-08-25,ORG002,Harborview Medical Center,Outbound,FHIR,Processed,138,10.08,EncounterSync
+EX-00426,2026-08-25,ORG001,Meridian General Hospital,Inbound,Claims,Processed,250,11.33,EncounterSync
+EX-00415,2026-08-25,ORG009,ValleyCare Clinic,Outbound,HL7,Processed,514,16.54,ClaimsExchange
+EX-00272,2026-08-25,ORG007,Summit Regional Hospital,Outbound,Claims,Failed,443,15.81,EncounterSync
+EX-00086,2026-08-25,ORG001,Meridian General Hospital,Inbound,FHIR,Processed,18,11.06,EncounterSync
+EX-00022,2026-08-25,ORG001,Meridian General Hospital,Outbound,FHIR,Processed,233,9.14,LabResults
+EX-00463,2026-08-24,ORG003,Oakfield Family Clinic,Outbound,FHIR,Processed,316,1.01,ClaimsExchange
+EX-00401,2026-08-24,ORG008,Greenway Specialty Center,Inbound,FHIR,Processed,29,11.35,AdmissionFeed
+EX-00204,2026-08-24,ORG008,Greenway Specialty Center,Inbound,XML,Processed,30,15.71,ClaimsExchange
+EX-00174,2026-08-24,ORG003,Oakfield Family Clinic,Outbound,Claims,Processed,266,9.92,ClaimsExchange
+EX-00092,2026-08-24,ORG009,ValleyCare Clinic,Inbound,FHIR,Processed,83,18.41,AdmissionFeed
+EX-00514,2026-08-23,ORG002,Harborview Medical Center,Outbound,Claims,Processed,94,18.2,AdmissionFeed
+EX-00420,2026-08-23,ORG002,Harborview Medical Center,Outbound,HL7,Processed,144,10.33,EncounterSync
+EX-00353,2026-08-23,ORG007,Summit Regional Hospital,Inbound,HL7,Processed,595,11.43,ClaimsExchange
+EX-00265,2026-08-23,ORG005,Lakeside Health Clinic,Outbound,Claims,Processed,171,15.03,EncounterSync
+EX-00195,2026-08-23,ORG010,Riverside Health Center,Outbound,Claims,Processed,279,8.32,ClaimsExchange
+EX-00150,2026-08-23,ORG002,Harborview Medical Center,Inbound,FHIR,Processed,298,8.79,EncounterSync
+EX-00308,2026-08-22,ORG009,ValleyCare Clinic,Outbound,Claims,Processed,553,7.09,EncounterSync
+EX-00088,2026-08-22,ORG005,Lakeside Health Clinic,Outbound,HL7,Processed,271,10.54,LabResults
+EX-00496,2026-08-21,ORG001,Meridian General Hospital,Outbound,Claims,Pending,51,,AdmissionFeed
+EX-00441,2026-08-21,ORG010,Riverside Health Center,Inbound,HL7,Processed,209,2.79,EncounterSync
+EX-00156,2026-08-21,ORG010,Riverside Health Center,Inbound,Claims,Pending,438,,LabResults
+EX-00136,2026-08-21,ORG002,Harborview Medical Center,Inbound,FHIR,Failed,69,6.52,AdmissionFeed
+EX-00067,2026-08-21,ORG004,Cedarbridge Hospital,Inbound,Claims,Processed,317,3.3,LabResults
+EX-00339,2026-08-20,ORG005,Lakeside Health Clinic,Outbound,HL7,Pending,298,,EncounterSync
+EX-00297,2026-08-20,ORG002,Harborview Medical Center,Outbound,Claims,Processed,130,3.36,EncounterSync
+EX-00287,2026-08-20,ORG001,Meridian General Hospital,Outbound,XML,Processed,12,12.66,ClaimsExchange
+EX-00245,2026-08-20,ORG010,Riverside Health Center,Outbound,FHIR,Processed,165,3.93,ClaimsExchange
+EX-00233,2026-08-20,ORG007,Summit Regional Hospital,Outbound,XML,Processed,558,5.55,ClaimsExchange
+EX-00061,2026-08-20,ORG008,Greenway Specialty Center,Inbound,Claims,Failed,249,16.06,ClaimsExchange
+EX-00478,2026-08-19,ORG001,Meridian General Hospital,Inbound,HL7,Processed,95,6.12,AdmissionFeed
+EX-00315,2026-08-19,ORG010,Riverside Health Center,Inbound,XML,Processed,171,11.91,ClaimsExchange
+EX-00168,2026-08-19,ORG008,Greenway Specialty Center,Outbound,HL7,Processed,283,18.49,LabResults
+EX-00094,2026-08-19,ORG002,Harborview Medical Center,Inbound,FHIR,Processed,125,16.03,AdmissionFeed
+EX-00035,2026-08-19,ORG010,Riverside Health Center,Inbound,Claims,Processed,578,1.35,EncounterSync
+EX-00023,2026-08-19,ORG009,ValleyCare Clinic,Outbound,Claims,Failed,591,18.26,AdmissionFeed
